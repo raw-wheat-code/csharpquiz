@@ -1,0 +1,16 @@
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.exe
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.deps.json
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.runtimeconfig.json
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.runtimeconfig.dev.json
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.dll
+d:\Repos\csharpquiz\bin\Debug\net5.0\ref\csharpquiz.dll
+d:\Repos\csharpquiz\bin\Debug\net5.0\csharpquiz.pdb
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.csproj.AssemblyReference.cache
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.GeneratedMSBuildEditorConfig.editorconfig
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.AssemblyInfoInputs.cache
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.AssemblyInfo.cs
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.csproj.CoreCompileInputs.cache
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.dll
+d:\Repos\csharpquiz\obj\Debug\net5.0\ref\csharpquiz.dll
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.pdb
+d:\Repos\csharpquiz\obj\Debug\net5.0\csharpquiz.genruntimeconfig.cache

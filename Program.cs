@@ -4,9 +4,11 @@ namespace csharpquiz
 {
     class Program
     {
+        public GenerateQuiz generate;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GenerateQuiz generateQuiz = new GenerateQuiz();
+            generateQuiz.LoadQuiz();
         }
     }
 }
