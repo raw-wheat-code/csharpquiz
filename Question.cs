@@ -3,6 +3,7 @@ using System.Collections.Generic;
 namespace csharpquiz
 {
     // Object that holds all the attributes of a question
+    [System.Serializable]
     public class Question
     {
         public string text; // Full text of question to display to the console
