@@ -1,3 +1,9 @@
-public class Quiz : MonoBehaviour {
+using System;
 
+namespace csharpquiz
+{
+    public class Quiz
+    {
+                
+    }
 }
