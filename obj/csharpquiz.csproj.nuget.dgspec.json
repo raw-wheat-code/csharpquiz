@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {}
+    "d:\\Repos\\csharpquiz\\csharpquiz.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {
+    "d:\\Repos\\csharpquiz\\csharpquiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
+        "projectUniqueName": "d:\\Repos\\csharpquiz\\csharpquiz.csproj",
         "projectName": "csharpquiz",
-        "projectPath": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
+        "projectPath": "d:\\Repos\\csharpquiz\\csharpquiz.csproj",
         "packagesPath": "C:\\Users\\Ross\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\csharpquiz\\obj\\",
+        "outputPath": "d:\\Repos\\csharpquiz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
