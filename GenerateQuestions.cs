@@ -9,7 +9,6 @@ namespace csharpquiz
     // Class to load questions from json into a Quiz list
     public class GenerateQuestions
     {
-
         // Declares file path and sets it equal to root directory of project
         private string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
 
