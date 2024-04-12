@@ -6,8 +6,8 @@ namespace csharpquiz
     {
         static void Main(string[] args)
         {
-            GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson();
+            QuizHandler quizHandler = new QuizHandler();
+            quizHandler.Start();
         }
     }
 }
