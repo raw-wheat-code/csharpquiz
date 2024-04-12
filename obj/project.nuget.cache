@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H8h8EkTI2eMecnIH+/yWGCT/RUj7EaELJXBg4fnxYtkgpeqrXrCfzTMoA6VW4wHquPiUWUs/EdhNfuWL+Q7kBA==",
+  "dgSpecHash": "3Z7BZtVCZncuCZ9d5deJXagr/gI4gCESgeeWR9KfjZJKE5OZcMGeCMzldXFgrftU1XIVCn8tx1jJ6nWv8ifodg==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "d:\\Repos\\csharpquiz\\csharpquiz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ross\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
