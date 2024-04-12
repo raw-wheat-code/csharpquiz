@@ -1,1 +1,16 @@
-{}
+{
+  "Questions": [
+    {
+      "question": "Who sucks?",
+      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
+      "correct": "Corey",
+      "group": "1"
+    },
+    {
+      "question": "Who is the most Blake?",
+      "answers": ["Ross", "Corey", "Blake", "Colin"],
+      "correct": "Colin",
+      "group": "1"
+    }
+  ]
+}
