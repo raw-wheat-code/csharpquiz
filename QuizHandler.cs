@@ -19,6 +19,7 @@ namespace csharpquiz
             if (HandleGeneralInput(userInput, "Y"))
             {
                 Console.WriteLine("Let's get started!");
+                PrintGroups();
                 BeginQuiz();
             }
             else
@@ -26,20 +27,48 @@ namespace csharpquiz
                 Console.WriteLine("Ok, goodbye.");
             }
         }
+        int groupId;
+        private void PrintGroups()
+        {
+            GenerateGroups generateGroups = new GenerateGroups();
+            GroupList groups = generateGroups.LoadGroupsFromJson();
+           
+
+
+            Console.WriteLine("\nPlease select a question set:\n");
+            foreach(Group group in groups.Groups)
+            {
+                Console.WriteLine($"{group.groupId}: {group.groupName}");
+
+            }
+            var input = Console.ReadLine();
+            int.TryParse(input, out groupId);
+
+
+
+        }
 
         private void BeginQuiz()
         {
             // Get question set
             GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson();
+            QuestionList questionList = generateQuestions.LoadQuizFromJson(groupId);
 
             int id = 1; // index to iterate and print to console.
 
+            
             foreach (Question question in questionList.Questions)
             {
+                bool isValid = false;
+                do
+                {
                 WriteQuestionToConsole(question, id);
-
                 userInput = Console.ReadLine();
+                isValid = ValidateAnswer.AnswerValidator(question, userInput);
+                }
+                while (!isValid);
+
+
                 EvaluateAnswer(question, userInput);
 
                 id++;
