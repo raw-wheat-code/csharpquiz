@@ -21,7 +21,6 @@ namespace csharpquiz
                     return true;
                 }
                 i++;
-
             }
             return false;
 
