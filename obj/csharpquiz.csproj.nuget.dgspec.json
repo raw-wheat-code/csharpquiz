@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Repos\\csharpquiz\\csharpquiz.csproj": {}
+    "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj": {}
   },
   "projects": {
-    "d:\\Repos\\csharpquiz\\csharpquiz.csproj": {
+    "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Repos\\csharpquiz\\csharpquiz.csproj",
+        "projectUniqueName": "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj",
         "projectName": "csharpquiz",
-        "projectPath": "d:\\Repos\\csharpquiz\\csharpquiz.csproj",
-        "packagesPath": "C:\\Users\\Ross\\.nuget\\packages\\",
-        "outputPath": "d:\\Repos\\csharpquiz\\obj\\",
+        "projectPath": "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj",
+        "packagesPath": "C:\\Users\\cjkno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjkno\\repos\\csharpquiz\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ross\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\cjkno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
