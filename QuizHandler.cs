@@ -9,7 +9,7 @@ namespace csharpquiz
         #region Class Variables
         GradeQuiz gradeQuiz = new GradeQuiz();
         string userInput;
-        int groupId;
+        int topicId;
         #endregion
 
         #region Methods
@@ -21,7 +21,7 @@ namespace csharpquiz
             if (HandleGeneralInput(userInput, "Y"))
             {
                 Console.WriteLine("Let's get started!");
-                PrintGroups();
+                PrintTopics();
                 BeginQuiz();
             }
             else
@@ -34,18 +34,19 @@ namespace csharpquiz
         {
             // Get question set
             GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson(groupId);
+            QuestionList questionList = generateQuestions.LoadQuizFromJson(topicId);
 
             int id = 1; // index to iterate and print to console.
 
             foreach (Question question in questionList.Questions)
             {
                 bool isValid = false;
+                WriteQuestionToConsole(question, id);
                 do
                 {
-                    WriteQuestionToConsole(question, id);
                     userInput = Console.ReadLine();
                     isValid = ValidateAnswer.AnswerValidator(question, userInput);
+                    if(!isValid) {Console.WriteLine("Invalid Entry. Try again. ");}
                 }
                 while (!isValid);
 
@@ -90,18 +91,18 @@ namespace csharpquiz
             }
             return false;
         }
-        private void PrintGroups()
+        private void PrintTopics()
         {
-            GenerateGroups generateGroups = new GenerateGroups();
-            GroupList groups = generateGroups.LoadGroupsFromJson();
+            GenerateTopics generateTopics = new GenerateTopics();
+            TopicList topics = generateTopics.LoadTopicsFromJson();
 
             Console.WriteLine("\nPlease select a question set:\n");
-            foreach (Group group in groups.Groups)
+            foreach (Topic topic in topics.Topics)
             {
-                Console.WriteLine($"{group.groupId}: {group.groupName}");
+                Console.WriteLine($"{topic.topicId}: {topic.topicName}");
             }
             var input = Console.ReadLine();
-            int.TryParse(input, out groupId);
+            int.TryParse(input, out topicId);
         }
 
         // Reusable method to write question text and answers to the console
