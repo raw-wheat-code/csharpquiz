@@ -8,19 +8,20 @@ namespace csharpquiz
     {
         public static bool AnswerValidator(Question question, string input)
         {
+            char letter = 'A';
+            int i = 0;
             foreach (string answer in question.answers)
             {
-                char answerLetter = (char)('A' + question.answers.IndexOf(question.correct));
-                // Convert user input to lowercase for case-insensitive comparison
-                string answerLetterLower = answerLetter.ToString().ToLower();
+                var answerLetter = ((char)(letter + i)).ToString();
 
                 // Check if the user input matches any of the expected formats
                 if (input.ToLower() == answer.ToLower() ||
-                    input.ToLower() == answerLetterLower)
-                    {
-                        return true;
-                    }
-                
+                    input.ToUpper() == answerLetter)
+                {
+                    return true;
+                }
+                i++;
+
             }
             return false;
 

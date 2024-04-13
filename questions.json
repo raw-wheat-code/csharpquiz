@@ -59,6 +59,12 @@
       "answers": ["Ross", "Corey", "Blake", "Colin"],
       "correct": "Colin",
       "group": "4"
+    },
+    {
+      "question": "Ross is gay. 4",
+      "answers": ["True", "False"],
+      "correct": "True",
+      "group": "2"
     }
   ]
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 namespace csharpquiz
 {
     // Object that holds all the attributes of a group
-    public class Group
+    public class Topic
     {
-        public string groupName; // description of group
-        public int groupId; // group number
+        public string topicName; // description of group
+        public int topicId; // group number
     }
 }
