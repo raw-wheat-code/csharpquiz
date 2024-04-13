@@ -6,11 +6,13 @@ namespace csharpquiz
     // Object that holds all the attributes of a question
     public class QuizHandler
     {
-        // Get quiz grader
+        #region Class Variables
         GradeQuiz gradeQuiz = new GradeQuiz();
-
         string userInput;
+        int groupId;
+        #endregion
 
+        #region Methods
         public void Start()
         {
             Console.WriteLine("Would you like to take a quiz? (Y/N)");
@@ -27,26 +29,6 @@ namespace csharpquiz
                 Console.WriteLine("Ok, goodbye.");
             }
         }
-        int groupId;
-        private void PrintGroups()
-        {
-            GenerateGroups generateGroups = new GenerateGroups();
-            GroupList groups = generateGroups.LoadGroupsFromJson();
-           
-
-
-            Console.WriteLine("\nPlease select a question set:\n");
-            foreach(Group group in groups.Groups)
-            {
-                Console.WriteLine($"{group.groupId}: {group.groupName}");
-
-            }
-            var input = Console.ReadLine();
-            int.TryParse(input, out groupId);
-
-
-
-        }
 
         private void BeginQuiz()
         {
@@ -56,24 +38,21 @@ namespace csharpquiz
 
             int id = 1; // index to iterate and print to console.
 
-            
             foreach (Question question in questionList.Questions)
             {
                 bool isValid = false;
                 do
                 {
-                WriteQuestionToConsole(question, id);
-                userInput = Console.ReadLine();
-                isValid = ValidateAnswer.AnswerValidator(question, userInput);
+                    WriteQuestionToConsole(question, id);
+                    userInput = Console.ReadLine();
+                    isValid = ValidateAnswer.AnswerValidator(question, userInput);
                 }
                 while (!isValid);
-
 
                 EvaluateAnswer(question, userInput);
 
                 id++;
             }
-
             gradeQuiz.GetScore();
         }
 
@@ -103,8 +82,6 @@ namespace csharpquiz
             }
         }
 
-
-
         private bool HandleGeneralInput(string input, string expected)
         {
             if (input != null && input.ToLower() == expected.ToLower())
@@ -112,6 +89,19 @@ namespace csharpquiz
                 return true;
             }
             return false;
+        }
+        private void PrintGroups()
+        {
+            GenerateGroups generateGroups = new GenerateGroups();
+            GroupList groups = generateGroups.LoadGroupsFromJson();
+
+            Console.WriteLine("\nPlease select a question set:\n");
+            foreach (Group group in groups.Groups)
+            {
+                Console.WriteLine($"{group.groupId}: {group.groupName}");
+            }
+            var input = Console.ReadLine();
+            int.TryParse(input, out groupId);
         }
 
         // Reusable method to write question text and answers to the console
@@ -144,5 +134,6 @@ namespace csharpquiz
                 list[n] = value;
             }
         }
+        #endregion
     }
 }
