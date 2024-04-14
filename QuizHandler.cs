@@ -10,6 +10,8 @@ namespace csharpquiz
         GradeQuiz gradeQuiz = new GradeQuiz();
         string userInput;
         int topicId;
+        bool isValid = false;
+        bool keepAlive = false;
         #endregion
 
         #region Methods
@@ -20,9 +22,16 @@ namespace csharpquiz
 
             if (HandleGeneralInput(userInput, "Y"))
             {
-                Console.WriteLine("Let's get started!");
-                PrintTopics();
-                BeginQuiz();
+                do
+                {
+                    Console.WriteLine("Let's get started!");
+                    PrintTopics();
+                    BeginQuiz();
+                    keepAlive = AnotherQuiz.QuizAgain();
+                }
+                while (keepAlive);
+
+
             }
             else
             {
@@ -40,13 +49,16 @@ namespace csharpquiz
 
             foreach (Question question in questionList.Questions)
             {
-                bool isValid = false;
                 WriteQuestionToConsole(question, id);
                 do
                 {
                     userInput = Console.ReadLine();
-                    isValid = ValidateAnswer.AnswerValidator(question, userInput);
-                    if(!isValid) {Console.WriteLine("Invalid Entry. Try again. ");}
+                    isValid = InputValidation.AnswerValidator(question, userInput);
+                    if (!isValid) { 
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("Invalid Entry. "); 
+                        Console.ResetColor();
+                        }
                 }
                 while (!isValid);
 
@@ -74,12 +86,16 @@ namespace csharpquiz
                 userInputLower == fullAnswerLower)
             {
                 gradeQuiz.IncrementCorrectCount();
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Correct!");
+                Console.ResetColor();
             }
             else
             {
                 gradeQuiz.IncrementQuestionCount();
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Incorrect. The correct answer is " + fullAnswer);
+                Console.ResetColor();
             }
         }
 
@@ -96,19 +112,39 @@ namespace csharpquiz
             GenerateTopics generateTopics = new GenerateTopics();
             TopicList topics = generateTopics.LoadTopicsFromJson();
 
-            Console.WriteLine("\nPlease select a question set:\n");
-            foreach (Topic topic in topics.Topics)
+            do
             {
-                Console.WriteLine($"{topic.topicId}: {topic.topicName}");
+                Console.WriteLine("\nPlease select a question set:\n");
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                foreach (Topic topic in topics.Topics)
+                {
+                    Console.WriteLine($"{topic.topicId}: {topic.topicName}");
+                }
+                var input = Console.ReadLine();
+                Console.ResetColor();
+                if (int.TryParse(input, out topicId))
+                {
+                    isValid = InputValidation.TopicValidator(topicId, topics);
+                }
+                else isValid = false;
+
+                if (!isValid)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine("Invalid Entry.");
+                    Console.ResetColor();
+                }
             }
-            var input = Console.ReadLine();
-            int.TryParse(input, out topicId);
+            while (!isValid);
+
         }
 
         // Reusable method to write question text and answers to the console
         private void WriteQuestionToConsole(Question question, int id)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Question #" + id + ": " + question.question);
+            Console.ResetColor();
 
             // Shuffle the order of the list of possible answers
             Shuffle(question.answers);
