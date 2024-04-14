@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 
 using System.Formats.Asn1;
+using System.Linq;
 
 namespace csharpquiz
 {
-    public class ValidateAnswer
+    public class InputValidation
     {
         public static bool AnswerValidator(Question question, string input)
         {
@@ -25,7 +26,16 @@ namespace csharpquiz
             return false;
 
         }
+        public static bool TopicValidator(int input, TopicList topics)
+        {
 
+                if(input <= topics.Topics.Count())
+                {
+                    return true;
+                }
+            
+            return false;
+        }
     }
 
 
