@@ -1,69 +1,63 @@
 {
   "Questions": [
     {
-      "question": "Who sucks? 2",
-      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
-      "correct": "Ross",
+      "question": "What is Git?",
+      "answers": ["A version control system", "A programming language", "An operating system", "A web browser"],
+      "correct": "A version control system",
       "group": "2"
     },
     {
-      "question": "Who is the most Blake? 2",
-      "answers": ["Ross", "Corey", "Blake", "Colin"],
-      "correct": "Colin",
+      "question": "What does the term \"repo\" stand for in Git?",
+      "answers": ["Repeatable operations", "Repository", "Remote operations", "Responsive optimization"],
+      "correct": "Repository",
       "group": "2"
     },
     {
-      "question": "Who sucks? 2",
-      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
-      "correct": "Corey",
+      "question": "Which command is used to initialize a Git repository in a directory?",
+      "answers": ["git clone", "git init", "git add", "git commit"],
+      "correct": "git init",
       "group": "2"
     },
     {
-      "question": "Who is the most Blake? 3",
-      "answers": ["Ross", "Corey", "Blake", "Colin"],
-      "correct": "Colin",
-      "group": "3"
+      "question": "What command is used to stage changes for a commit in Git?",
+      "answers": ["git stage", "git add", "git commit", "git push"],
+      "correct": "git add",
+      "group": "2"
     },
     {
-      "question": "Who sucks? 3",
-      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
-      "correct": "Corey",
-      "group": "3"
+      "question": "Which command is used to view the status of your changes in Git?",
+      "answers": ["git status", "git diff", "git log", "git branch"],
+      "correct": "git status",
+      "group": "2"
     },
     {
-      "question": "Who is the most Blake? 3",
-      "answers": ["Ross", "Corey", "Blake", "Colin"],
-      "correct": "Colin",
-      "group": "3"
+      "question": "What command is used to create a new branch in Git?",
+      "answers": ["git branch", "git commit", "git checkout", "git merge"],
+      "correct": "git branch",
+      "group": "2"
     },
     {
-      "question": "Who sucks? 4",
-      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
-      "correct": "Corey",
-      "group": "4"
+      "question": "Which command is used to merge branches in Git?",
+      "answers": ["git branch", "git commit", "git checkout", "git merge"],
+      "correct": "git merge",
+      "group": "2"
     },
     {
-      "question": "Who is the most Blake? 4",
-      "answers": ["Ross", "Corey", "Blake", "Colin"],
-      "correct": "Colin",
-      "group": "4"
+      "question": "What command is used to revert changes to a specific commit in Git?",
+      "answers": ["git reset", "git revert", "git checkout", "git cherry-pick"],
+      "correct": "git revert",
+      "group": "2"
+    },
+
+      "question": "Which command is used to push changes from a local repository to a remote repository in Git?",
+      "answers": ["git push", "git pull", "git clone", "git fetch"],
+      "correct": "git push",
+      "group": "2"
     },
     {
-      "question": "Who sucks? 4",
-      "answers": ["Ross", "Corey", "Blake", "Ryan Penelton"],
-      "correct": "Corey",
-      "group": "4"
-    },
-    {
-      "question": "Who is the most Blake? 4",
-      "answers": ["Ross", "Corey", "Blake", "Colin"],
-      "correct": "Colin",
-      "group": "4"
-    },
-    {
-      "question": "Ross is gay. 4",
-      "answers": ["True", "False"],
-      "correct": "True",
+      "question": "What command is used to clone a remote repository to your local machine in Git?",
+      "answers": ["git push", "git pull", "git clone", "git fetch"],
+      "correct": "git clone",
       "group": "2"
     }
   ]
