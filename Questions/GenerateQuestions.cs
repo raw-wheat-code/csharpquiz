@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
+using System.Diagnostics;
 
 
 namespace csharpquiz
@@ -20,16 +21,22 @@ namespace csharpquiz
             filePath += @"\questions.json"; // Then adds the actual file name
             if (File.Exists(filePath))
             {
+                Console.WriteLine("Fail 1");
                 string json = File.ReadAllText(filePath);
+                Console.WriteLine("Fail 2");
                 QuestionList questionList = JsonConvert.DeserializeObject<QuestionList>(json);
+                Console.WriteLine("Fail 3");
                 if(topicId == 1)
                 {
+                    Console.WriteLine("Fail 4");
                     return questionList;
                 }
 
                 else
                 {
+                    Console.WriteLine("Fail 5");
                 List<Question> filteredQuestions = questionList.Questions.FindAll(q => q.group == topicId);
+                Console.WriteLine("Fail 6");
                 return new QuestionList { Questions = filteredQuestions };
                 }
             }

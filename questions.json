@@ -48,7 +48,7 @@
       "correct": "git revert",
       "group": "2"
     },
-
+    {
       "question": "Which command is used to push changes from a local repository to a remote repository in Git?",
       "answers": ["git push", "git pull", "git clone", "git fetch"],
       "correct": "git push",
