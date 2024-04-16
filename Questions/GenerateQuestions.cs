@@ -13,7 +13,7 @@ namespace csharpquiz
         // Declares file path and sets it equal to root directory of project
         private string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
 
-        public QuestionList LoadQuizFromJson(int topicId)
+        public QuestionList LoadQuizFromJson(int topicId, int count = 10)
         {
             // Navigates backwards to the correct directory in the project
             filePath = Directory.GetParent(filePath).FullName;
@@ -21,22 +21,16 @@ namespace csharpquiz
             filePath += @"\questions.json"; // Then adds the actual file name
             if (File.Exists(filePath))
             {
-                Console.WriteLine("Fail 1");
                 string json = File.ReadAllText(filePath);
-                Console.WriteLine("Fail 2");
                 QuestionList questionList = JsonConvert.DeserializeObject<QuestionList>(json);
-                Console.WriteLine("Fail 3");
                 if(topicId == 1)
                 {
-                    Console.WriteLine("Fail 4");
                     return questionList;
                 }
 
                 else
                 {
-                    Console.WriteLine("Fail 5");
                 List<Question> filteredQuestions = questionList.Questions.FindAll(q => q.group == topicId);
-                Console.WriteLine("Fail 6");
                 return new QuestionList { Questions = filteredQuestions };
                 }
             }
