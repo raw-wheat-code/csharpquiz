@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj": {}
+    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj": {
+    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj",
+        "projectUniqueName": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
         "projectName": "csharpquiz",
-        "projectPath": "C:\\Users\\cjkno\\repos\\csharpquiz\\csharpquiz.csproj",
-        "packagesPath": "C:\\Users\\cjkno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cjkno\\repos\\csharpquiz\\obj\\",
+        "projectPath": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
+        "packagesPath": "C:\\Users\\Ross\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\csharpquiz\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cjkno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +49,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
