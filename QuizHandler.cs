@@ -6,44 +6,20 @@ namespace csharpquiz
     // Object that holds all the attributes of a question
     public class QuizHandler
     {
-        #region Class Variables
+        private readonly Menu menu;
         GradeQuiz gradeQuiz = new GradeQuiz();
         string userInput;
-        int topicId;
-        bool isValid = false;
-        bool keepAlive = false;
-        #endregion
 
-        #region Methods
-        public void Start()
+        public QuizHandler(Menu menu)
         {
-            Console.WriteLine("Would you like to take a quiz? (Y/N)");
-            userInput = Console.ReadLine();
-
-            if (HandleGeneralInput(userInput, "Y"))
-            {
-                do
-                {
-                    Console.WriteLine("Let's get started!");
-                    PrintTopics();
-                    BeginQuiz();
-                    keepAlive = AnotherQuiz.QuizAgain();
-                }
-                while (keepAlive);
-
-
-            }
-            else
-            {
-                Console.WriteLine("Ok, goodbye.");
-            }
+            this.menu = menu;
         }
 
-        private void BeginQuiz()
+        public void BeginQuiz()
         {
             // Get question set
             GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson(topicId);
+            QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId);
 
             int id = 1; // index to iterate and print to console.
 
@@ -53,14 +29,15 @@ namespace csharpquiz
                 do
                 {
                     userInput = Console.ReadLine();
-                    isValid = InputValidation.AnswerValidator(question, userInput);
-                    if (!isValid) { 
+                    menu.IsValid = InputValidation.AnswerValidator(question, userInput);
+                    if (!menu.IsValid)
+                    {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("Invalid Entry. "); 
+                        Console.WriteLine("Invalid Entry. ");
                         Console.ResetColor();
-                        }
+                    }
                 }
-                while (!isValid);
+                while (!menu.IsValid);
 
                 EvaluateAnswer(question, userInput);
 
@@ -99,46 +76,6 @@ namespace csharpquiz
             }
         }
 
-        private bool HandleGeneralInput(string input, string expected)
-        {
-            if (input != null && input.ToLower() == expected.ToLower())
-            {
-                return true;
-            }
-            return false;
-        }
-        private void PrintTopics()
-        {
-            GenerateTopics generateTopics = new GenerateTopics();
-            TopicList topics = generateTopics.LoadTopicsFromJson();
-
-            do
-            {
-                Console.WriteLine("\nPlease select a question set:\n");
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
-                foreach (Topic topic in topics.Topics)
-                {
-                    Console.WriteLine($"{topic.topicId}: {topic.topicName}");
-                }
-                var input = Console.ReadLine();
-                Console.ResetColor();
-                if (int.TryParse(input, out topicId))
-                {
-                    isValid = InputValidation.TopicValidator(topicId, topics);
-                }
-                else isValid = false;
-
-                if (!isValid)
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("Invalid Entry.");
-                    Console.ResetColor();
-                }
-            }
-            while (!isValid);
-
-        }
-
         // Reusable method to write question text and answers to the console
         private void WriteQuestionToConsole(Question question, int id)
         {
@@ -171,6 +108,5 @@ namespace csharpquiz
                 list[n] = value;
             }
         }
-        #endregion
     }
 }

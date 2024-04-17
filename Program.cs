@@ -6,8 +6,8 @@ namespace csharpquiz
     {
         static void Main(string[] args)
         {
-            QuizHandler quizHandler = new QuizHandler();
-            quizHandler.Start();
+            Menu menu = new Menu();
+            menu.Start();
         }
     }
 }
