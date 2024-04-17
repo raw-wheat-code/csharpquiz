@@ -15,17 +15,17 @@ namespace csharpquiz
             this.menu = menu;
         }
 
-        public void BeginQuiz()
+        public void BeginQuiz(int count)
         {
             // Get question set
             GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId);
+            QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId, count);
 
             int id = 1; // index to iterate and print to console.
 
             foreach (Question question in questionList.Questions)
             {
-                WriteQuestionToConsole(question, id);
+                WriteQuestionToConsole(question, id, generateQuestions);
                 do
                 {
                     userInput = Console.ReadLine();
@@ -77,35 +77,20 @@ namespace csharpquiz
         }
 
         // Reusable method to write question text and answers to the console
-        private void WriteQuestionToConsole(Question question, int id)
+        private void WriteQuestionToConsole(Question question, int id, GenerateQuestions generateQuestions)
         {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Question #" + id + ": " + question.question);
             Console.ResetColor();
 
             // Shuffle the order of the list of possible answers
-            Shuffle(question.answers);
+            generateQuestions.Shuffle(question.answers);
 
             char letter = 'A';
 
             for (int i = 0; i < question.answers.Count; i++)
             {
                 Console.WriteLine($"{(char)(letter + i)}. {question.answers[i]}");
-            }
-        }
-
-        // Fisher-Yates shuffle algorithm
-        public static void Shuffle<T>(List<T> list)
-        {
-            Random rng = new Random();
-            int n = list.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = rng.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
             }
         }
     }
