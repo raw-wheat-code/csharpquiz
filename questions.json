@@ -2,13 +2,23 @@
   "Questions": [
     {
       "question": "What is Git?",
-      "answers": ["A version control system", "A programming language", "An operating system", "A web browser"],
+      "answers": [
+        "A version control system",
+        "A programming language",
+        "An operating system",
+        "A web browser"
+      ],
       "correct": "A version control system",
       "group": "2"
     },
     {
       "question": "What does the term \"repo\" stand for in Git?",
-      "answers": ["Repeatable operations", "Repository", "Remote operations", "Responsive optimization"],
+      "answers": [
+        "Repeatable operations",
+        "Repository",
+        "Remote operations",
+        "Responsive optimization"
+      ],
       "correct": "Repository",
       "group": "2"
     },
@@ -58,6 +68,101 @@
       "question": "What command is used to clone a remote repository to your local machine in Git?",
       "answers": ["git push", "git pull", "git clone", "git fetch"],
       "correct": "git clone",
+      "group": "2"
+    },
+    {
+      "question": "What does the command 'git pull' do in Git?",
+      "answers": [
+        "Pushes changes from a local repository to a remote repository",
+        "Fetches changes from a remote repository and merges them into the current branch",
+        "Creates a new branch in the local repository",
+        "Reverts changes made in the working directory"
+      ],
+      "correct": "Fetches changes from a remote repository and merges them into the current branch",
+      "group": "2"
+    },
+    {
+      "question": "What is the purpose of the '.gitignore' file in a Git repository?",
+      "answers": [
+        "To list files that should never be committed to the repository",
+        "To specify which files should always be included in commits",
+        "To store the credentials for accessing remote repositories",
+        "To define the structure of the repository"
+      ],
+      "correct": "To list files that should never be committed to the repository",
+      "group": "2"
+    },
+    {
+      "question": "What does the 'HEAD' pointer refer to in Git?",
+      "answers": [
+        "The latest commit on the current branch",
+        "The index where changes are staged before committing",
+        "The main branch of the repository",
+        "The remote repository"
+      ],
+      "correct": "The latest commit on the current branch",
+      "group": "2"
+    },
+    {
+      "question": "Which command is used to create and switch to a new branch in Git?",
+      "answers": ["git branch", "git checkout", "git merge", "git branch -b"],
+      "correct": "git checkout",
+      "group": "2"
+    },
+    {
+      "question": "What is a 'merge conflict' in Git?",
+      "answers": [
+        "A situation where multiple branches can be merged without conflict",
+        "An error that occurs when attempting to merge branches",
+        "A situation where Git cannot determine which changes to accept during a merge",
+        "A conflict between team members regarding the use of Git"
+      ],
+      "correct": "A situation where Git cannot determine which changes to accept during a merge",
+      "group": "2"
+    },
+    {
+      "question": "What is the purpose of the command 'git rebase'?",
+      "answers": [
+        "To merge changes from one branch into another branch",
+        "To rewrite the commit history of a branch",
+        "To revert changes made in a specific commit",
+        "To create a new branch"
+      ],
+      "correct": "To rewrite the commit history of a branch",
+      "group": "2"
+    },
+    {
+      "question": "What does the command 'git cherry-pick' do?",
+      "answers": [
+        "Creates a new branch from a specific commit",
+        "Applies the changes introduced by some existing commits",
+        "Undoes the changes made in a specific commit",
+        "Deletes a branch from the repository"
+      ],
+      "correct": "Applies the changes introduced by some existing commits",
+      "group": "2"
+    },
+    {
+      "question": "Which Git command is used to show the commit history for a specific branch?",
+      "answers": ["git history", "git log", "git show", "git branch"],
+      "correct": "git log",
+      "group": "2"
+    },
+    {
+      "question": "What is the purpose of the 'git stash' command?",
+      "answers": [
+        "To discard changes in the working directory",
+        "To temporarily store changes that are not ready to be committed",
+        "To create a backup of the entire repository",
+        "To undo the last commit"
+      ],
+      "correct": "To temporarily store changes that are not ready to be committed",
+      "group": "2"
+    },
+    {
+      "question": "Which Git command is used to rename a file?",
+      "answers": ["git rename", "git mv", "git move", "git change"],
+      "correct": "git mv",
       "group": "2"
     }
   ]
