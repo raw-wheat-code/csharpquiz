@@ -164,6 +164,12 @@
       "answers": ["git rename", "git mv", "git move", "git change"],
       "correct": "git mv",
       "group": "2"
+    },
+    {
+      "question": "How now brown cow?",
+      "answers": ["True", "27", "M", "Toaster"],
+      "correct": "27",
+      "group":"3"
     }
   ]
 }

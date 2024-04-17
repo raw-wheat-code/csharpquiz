@@ -84,7 +84,7 @@ namespace csharpquiz
             Console.ResetColor();
 
             // Shuffle the order of the list of possible answers
-            generateQuestions.Shuffle(question.answers);
+            // generateQuestions.Shuffle(question.answers);
 
             char letter = 'A';
 
