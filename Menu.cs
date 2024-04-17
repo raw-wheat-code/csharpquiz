@@ -98,7 +98,7 @@ namespace csharpquiz
             char letter = 'A';
             do
             {
-                Console.WriteLine("\nPlease choose the number of questions you'd like to answer:\n");
+                Console.WriteLine("\nPlease choose the (maximum) number of questions you'd like to answer:\n");
 
                 for (int i = 0; i < countAnswers.Count; i++)
                 {

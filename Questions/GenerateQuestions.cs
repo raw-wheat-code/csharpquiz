@@ -23,18 +23,34 @@ namespace csharpquiz
             {
                 string json = File.ReadAllText(filePath);
                 QuestionList questionList = JsonConvert.DeserializeObject<QuestionList>(json);
-                if (topicId == 1)
-                {
-                    return questionList;
-                }
 
-                else
+                if (topicId != 1)
                 {
                     List<Question> filteredQuestions = questionList.Questions.FindAll(q => q.group == topicId);
-                    return new QuestionList { Questions = filteredQuestions };
+                    questionList = new QuestionList { Questions = filteredQuestions };
                 }
+                FluffAndGroomTheQuestionList(questionList, count);
+                return questionList;
             }
             return new QuestionList();
+        }
+
+        private void FluffAndGroomTheQuestionList(QuestionList questionList, int count)
+        {
+            // shuffle the order of the list
+            Shuffle(questionList.Questions);
+
+            // trim the list to the specified size
+            while (questionList.Questions.Count > count)
+            {
+                questionList.Questions.RemoveAt(questionList.Questions.Count - 1);
+            }
+
+            // shuffle the possible answers for each question
+            foreach (Question question in questionList.Questions)
+            {
+                Shuffle(question.answers);
+            }
         }
 
         // Fisher-Yates shuffle algorithm
