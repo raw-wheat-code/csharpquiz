@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace csharpquiz
 {
@@ -10,6 +11,8 @@ namespace csharpquiz
         private int topicId;
         private bool isValid = false;
         private bool keepAlive = false;
+        private List<string> countAnswers = ["5", "10", "20", "50"];
+        private int count;
 
         public Menu()
         {
@@ -37,16 +40,16 @@ namespace csharpquiz
             {
                 do
                 {
-                    Console.WriteLine("Let's get started!");
                     PrintTopics();
-                    quizHandler.BeginQuiz();
+                    PrintQuestionCount();
+                    quizHandler.BeginQuiz(count);
                     keepAlive = AnotherQuiz.QuizAgain();
                 }
                 while (keepAlive);
             }
             else
             {
-                Console.WriteLine("Ok, goodbye.");
+                Console.WriteLine("Quiz terminated.");
             }
         }
 
@@ -88,7 +91,34 @@ namespace csharpquiz
                 }
             }
             while (!isValid);
+        }
 
+        private void PrintQuestionCount()
+        {
+            char letter = 'A';
+            do
+            {
+                Console.WriteLine("\nPlease choose the number of questions you'd like to answer:\n");
+
+                for (int i = 0; i < countAnswers.Count; i++)
+                {
+                    Console.WriteLine($"{(char)(letter + i)}: {countAnswers[i]}");
+                }
+                userInput = Console.ReadLine();
+            }
+            while (InputValidation.QuestionCountValidator(countAnswers, userInput));
+
+            if (char.IsLetter(userInput, 0))
+            {
+                // If the user answered with a letter
+                int index = userInput[0] - 'A';
+                int.TryParse(countAnswers[index], out count);
+            }
+            else
+            {
+                // If the user answered with the numeric value
+                int.TryParse(userInput, out count);
+            }
         }
     }
 }

@@ -29,12 +29,34 @@ namespace csharpquiz
         public static bool TopicValidator(int input, TopicList topics)
         {
 
-                if(input <= topics.Topics.Count())
-                {
-                    return true;
-                }
-            
+            if (input <= topics.Topics.Count())
+            {
+                return true;
+            }
+
             return false;
+        }
+
+        public static bool QuestionCountValidator(List<string> questionCount, string userInput)
+        {
+            char letter = 'A';
+
+            foreach (string count in questionCount)
+            {
+                for (int i = 0; i < questionCount.Count; i++)
+                {
+                    letter = (char)(letter + i);
+                    if (userInput == count)
+                    {
+                        return false;
+                    }
+                    else if (userInput.ToLower() == letter.ToString().ToLower())
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
     }
 
