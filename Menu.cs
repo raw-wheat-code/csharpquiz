@@ -111,7 +111,7 @@ namespace csharpquiz
             if (char.IsLetter(userInput, 0))
             {
                 // If the user answered with a letter
-                int index = userInput[0] - 'A';
+                int index = (char.ToUpper(userInput[0]) - 64) - 1;
                 int.TryParse(countAnswers[index], out count);
             }
             else
