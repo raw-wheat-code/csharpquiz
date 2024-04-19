@@ -23,7 +23,7 @@ namespace csharpquiz
             QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId, count);
 
             int id = 1; // index to iterate and print to console.
-+
+
             foreach (Question question in questionList.Questions)
             {
                 WriteQuestionToConsole(question, id, generateQuestions);
