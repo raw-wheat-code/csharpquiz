@@ -18,11 +18,12 @@ namespace csharpquiz
         public void BeginQuiz(int count)
         {
             // Get question set
+            gradeQuiz.ResetQuizScore();
             GenerateQuestions generateQuestions = new GenerateQuestions();
             QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId, count);
 
             int id = 1; // index to iterate and print to console.
-
++
             foreach (Question question in questionList.Questions)
             {
                 WriteQuestionToConsole(question, id, generateQuestions);
@@ -64,14 +65,14 @@ namespace csharpquiz
             {
                 gradeQuiz.IncrementCorrectCount();
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Correct!");
+                Console.WriteLine("\nCorrect!\n");
                 Console.ResetColor();
             }
             else
             {
                 gradeQuiz.IncrementQuestionCount();
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Incorrect. The correct answer is " + fullAnswer);
+                Console.WriteLine("\nIncorrect. The correct answer is " + fullAnswer + "\n");
                 Console.ResetColor();
             }
         }

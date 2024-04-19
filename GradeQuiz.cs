@@ -16,6 +16,12 @@ namespace csharpquiz
             questionCount++;
         }
 
+        public void ResetQuizScore()
+        {
+            questionCount = 0;
+            correctCount = 0;
+        }
+
         // Call when question is answered correctly
         public void IncrementCorrectCount()
         {

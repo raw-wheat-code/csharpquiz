@@ -33,6 +33,7 @@ namespace csharpquiz
 
         public void Start()
         {
+            Console.Clear();
             Console.WriteLine("Would you like to take a quiz? (Y/N)");
             userInput = Console.ReadLine();
 
@@ -40,6 +41,7 @@ namespace csharpquiz
             {
                 do
                 {
+                    Console.Clear();
                     PrintTopics();
                     PrintQuestionCount();
                     quizHandler.BeginQuiz(count);
@@ -49,7 +51,7 @@ namespace csharpquiz
             }
             else
             {
-                Console.WriteLine("Quiz terminated.");
+                Console.WriteLine("Ok, goodbye.");
             }
         }
 
@@ -69,13 +71,14 @@ namespace csharpquiz
 
             do
             {
-                Console.WriteLine("\nPlease select a question set:\n");
+                Console.WriteLine("Please select a question set:\n");
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 foreach (Topic topic in topics.Topics)
                 {
                     Console.WriteLine($"{topic.topicId}: {topic.topicName}");
                 }
                 var input = Console.ReadLine();
+                Console.Clear();
                 Console.ResetColor();
                 if (int.TryParse(input, out topicId))
                 {
@@ -87,6 +90,7 @@ namespace csharpquiz
                 {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine("Invalid Entry.");
+                    Console.Clear();
                     Console.ResetColor();
                 }
             }
@@ -98,13 +102,14 @@ namespace csharpquiz
             char letter = 'A';
             do
             {
-                Console.WriteLine("\nPlease choose the (maximum) number of questions you'd like to answer:\n");
+                Console.WriteLine("Please choose the (maximum) number of questions you'd like to answer:\n");
 
                 for (int i = 0; i < countAnswers.Count; i++)
                 {
                     Console.WriteLine($"{(char)(letter + i)}: {countAnswers[i]}");
                 }
                 userInput = Console.ReadLine();
+                Console.Clear();
             }
             while (InputValidation.QuestionCountValidator(countAnswers, userInput));
 
