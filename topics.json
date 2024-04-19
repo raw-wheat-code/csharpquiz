@@ -11,17 +11,15 @@
       },
       
       {
-        "topicName": ".NET Platform",
+        "topicName": ".NET Platform, .NET SDK and CLI",
         "topicId": 3
       },
-      
-      {
-        "topicName": ".NET SDK and CLI",
-        "topicId": 4
-      },
-      
       {
         "topicName": "C# Basics, Methods, Value and Reference Types",
+        "topicId": 4
+      },
+      {
+        "topicName": "Strings and Arrays, Methods and Exceptions",
         "topicId": 5
       }
     ]
