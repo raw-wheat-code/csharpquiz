@@ -13,15 +13,15 @@ namespace csharpquiz
         // Declares file path and sets it equal to root directory of project
         private string filePath = Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory);
 
-        public QuestionList LoadQuizFromJson(int topicId, int count = 10)
+        public QuestionList LoadQuizFromJson(int topicId, int count)
         {
             // Navigates backwards to the correct directory in the project
-            filePath = Directory.GetParent(filePath).FullName;
-            filePath = Directory.GetParent(Directory.GetParent(filePath).FullName).FullName;
-            filePath += @"\questions.json"; // Then adds the actual file name
-            if (File.Exists(filePath))
+            string newFilePath = Directory.GetParent(filePath).FullName;
+            newFilePath = Directory.GetParent(Directory.GetParent(newFilePath).FullName).FullName;
+            newFilePath += @"\questions.json"; // Then adds the actual file name
+            if (File.Exists(newFilePath))
             {
-                string json = File.ReadAllText(filePath);
+                string json = File.ReadAllText(newFilePath);
                 QuestionList questionList = JsonConvert.DeserializeObject<QuestionList>(json);
 
                 if (topicId != 1)
@@ -33,6 +33,19 @@ namespace csharpquiz
                 return questionList;
             }
             return new QuestionList();
+        }
+
+        public int QuestionCountByTopicList(int topicId)
+        {
+            int i = 0;
+            QuestionList questionList = LoadQuizFromJson(topicId, 10000);
+
+            foreach (Question question in questionList.Questions)
+            {
+                i++;
+            }
+
+            return i;
         }
 
         private void FluffAndGroomTheQuestionList(QuestionList questionList, int count)

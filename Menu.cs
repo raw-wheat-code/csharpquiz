@@ -6,12 +6,13 @@ namespace csharpquiz
     public class Menu
     {
         private readonly QuizHandler quizHandler;
+        private GenerateQuestions generateQuestions =new GenerateQuestions();
 
         private string userInput;
         private int topicId;
         private bool isValid = false;
         private bool keepAlive = false;
-        private List<string> countAnswers = ["5", "10", "20", "50"];
+        private List<string> countAnswers = ["1", "2", "3", "5", "8", "13", "21", "34", "55"];
         private int count;
 
         public Menu()
@@ -100,13 +101,18 @@ namespace csharpquiz
         private void PrintQuestionCount()
         {
             char letter = 'A';
+            int max = generateQuestions.QuestionCountByTopicList(topicId);
+
             do
             {
-                Console.WriteLine("Please choose the (maximum) number of questions you'd like to answer:\n");
+                Console.WriteLine("Choose the number of questions:\n");
 
                 for (int i = 0; i < countAnswers.Count; i++)
                 {
-                    Console.WriteLine($"{(char)(letter + i)}: {countAnswers[i]}");
+                    if (Convert.ToInt32(countAnswers[i]) <= max)
+                    {
+                        Console.WriteLine($"{(char)(letter + i)}: {countAnswers[i]}");
+                    }
                 }
                 userInput = Console.ReadLine();
                 Console.Clear();
