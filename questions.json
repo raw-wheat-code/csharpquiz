@@ -166,10 +166,453 @@
       "group": "2"
     },
     {
-      "question": "How now brown cow?",
-      "answers": ["True", "27", "M", "Toaster"],
-      "correct": "27",
-      "group":"3"
-    }
+      "question": "Which of the following is NOT a .NET programming language?",
+      "answers": ["C#", "Java", "F#", "VB.NET"],
+      "correct": "Java",
+      "group": "3"
+    },
+    {
+      "question": "What is the primary function of the Common Language Runtime (CLR) in the .NET framework?",
+      "answers": [
+        "Memory management",
+        "Garbage collection",
+        "Code execution",
+        "All of the above"
+      ],
+      "correct": "All of the above",
+      "group": "3"
+    },
+    {
+      "question": "Which .NET framework component provides a set of classes and functions for building web applications?",
+      "answers": ["ASP.NET", "WPF", "WinForms", "ADO.NET"],
+      "correct": "ASP.NET",
+      "group": "3"
+    },
+    {
+      "question": "What is the purpose of the Global Assembly Cache (GAC) in .NET?",
+      "answers": [
+        "To store shared assemblies",
+        "To cache runtime data",
+        "To optimize code execution",
+        "To manage database connections"
+      ],
+      "correct": "To store shared assemblies",
+      "group": "3"
+    },
+    {
+      "question": "Which .NET framework component is used for data access and manipulation?",
+      "answers": ["ADO.NET", "ASP.NET", "Entity Framework", "WCF"],
+      "correct": "ADO.NET",
+      "group": "3"
+    },
+    {
+      "question": "What is the file extension used for compiled .NET assemblies?",
+      "answers": [".dll", ".exe", ".lib", ".obj"],
+      "correct": ".dll",
+      "group": "3"
+    },
+    {
+      "question": "Which .NET component is used for building and consuming web services?",
+      "answers": [
+        "WCF (Windows Communication Foundation)",
+        "ASP.NET",
+        "ADO.NET",
+        "WinForms"
+      ],
+      "correct": "WCF (Windows Communication Foundation)",
+      "group": "3"
+    },
+    {
+      "question": "What is the main advantage of using .NET Core over the full .NET Framework?",
+      "answers": [
+        "Cross-platform compatibility",
+        "Better performance",
+        "Richer feature set",
+        "Easier integration with legacy systems"
+      ],
+      "correct": "Cross-platform compatibility",
+      "group": "3"
+    },
+    {
+      "question": "Which .NET feature allows you to write code once and run it on different operating systems?",
+      "answers": [
+        "Cross-platform runtime",
+        "Platform Invocation Services (P/Invoke)",
+        "Common Language Specification (CLS)",
+        "Assembly Manifest"
+      ],
+      "correct": "Cross-platform runtime",
+      "group": "3"
+    },
+    {
+      "question": "What is the purpose of the Intermediate Language (IL) in the .NET framework?",
+      "answers": [
+        "It serves as an intermediate representation of the source code",
+        "It is directly executed by the CPU",
+        "It manages memory allocation",
+        "It handles user input/output operations"
+      ],
+      "correct": "It serves as an intermediate representation of the source code",
+      "group": "3"
+    },
+    {
+      "question": "What is the primary purpose of the .NET CLI (Command-Line Interface)?",
+      "answers": [
+        "To build and manage .NET projects",
+        "To create graphical user interfaces",
+        "To write C# code",
+        "To debug .NET applications"
+      ],
+      "correct": "To build and manage .NET projects",
+      "group": "4"
+    },
+    {
+      "question": "Which command is used to create a new .NET project using the .NET CLI?",
+      "answers": [
+        "dotnet new",
+        "dotnet create",
+        "dotnet project",
+        "dotnet init"
+      ],
+      "correct": "dotnet new",
+      "group": "4"
+    },
+    {
+      "question": "What command is used to restore the dependencies of a .NET project?",
+      "answers": [
+        "dotnet restore",
+        "dotnet build",
+        "dotnet run",
+        "dotnet publish"
+      ],
+      "correct": "dotnet restore",
+      "group": "4"
+    },
+    {
+      "question": "Which command is used to build a .NET project?",
+      "answers": [
+        "dotnet build",
+        "dotnet compile",
+        "dotnet make",
+        "dotnet generate"
+      ],
+      "correct": "dotnet build",
+      "group": "4"
+    },
+    {
+      "question": "What is the purpose of the 'dotnet run' command?",
+      "answers": [
+        "To execute a .NET application",
+        "To generate documentation",
+        "To analyze code quality",
+        "To publish the application"
+      ],
+      "correct": "To execute a .NET application",
+      "group": "4"
+    },
+    {
+      "question": "Which command is used to publish a .NET application for deployment?",
+      "answers": [
+        "dotnet publish",
+        "dotnet deploy",
+        "dotnet package",
+        "dotnet release"
+      ],
+      "correct": "dotnet publish",
+      "group": "4"
+    },
+    {
+      "question": "What is the purpose of the 'dotnet test' command?",
+      "answers": [
+        "To run unit tests for a .NET project",
+        "To compile the project",
+        "To analyze performance",
+        "To create a Docker container"
+      ],
+      "correct": "To run unit tests for a .NET project",
+      "group": "4"
+    },
+    {
+      "question": "Which command is used to add a reference to a NuGet package in a .NET project?",
+      "answers": [
+        "dotnet add package",
+        "dotnet install",
+        "dotnet reference",
+        "dotnet include"
+      ],
+      "correct": "dotnet add package",
+      "group": "4"
+    },
+    {
+      "question": "What is the purpose of the 'dotnet clean' command?",
+      "answers": [
+        "To remove build artifacts and intermediate files",
+        "To optimize the application",
+        "To refactor the code",
+        "To generate project documentation"
+      ],
+      "correct": "To remove build artifacts and intermediate files",
+      "group": "4"
+    },
+    {
+      "question": "Which command is used to display help information for the .NET CLI commands?",
+      "answers": ["dotnet --help", "dotnet help", "dotnet info", "dotnet man"],
+      "correct": "dotnet help",
+      "group": "4"
+    },
+    {
+      "question": "Which of the following is NOT a primitive data type in C#?",
+      "answers": ["int", "string", "float", "boolean"],
+      "correct": "string",
+      "group": "5"
+    },
+    {
+      "question": "What symbol is used to start a single-line comment in C#?",
+      "answers": ["//", "/*", "#", "--"],
+      "correct": "//",
+      "group": "5"
+    },
+    {
+      "question": "Which keyword is used to define a constant in C#?",
+      "answers": ["const", "var", "static", "final"],
+      "correct": "const",
+      "group": "5"
+    },
+    {
+      "question": "What does the 'void' keyword indicate in a method declaration in C#?",
+      "answers": [
+        "The method does not return a value",
+        "The method is private",
+        "The method is static",
+        "The method is abstract"
+      ],
+      "correct": "The method does not return a value",
+      "group": "5"
+    },
+    {
+      "question": "Which operator is used for exponentiation in C#?",
+      "answers": ["^", "**", "*", "^=", "^^"],
+      "correct": "**",
+      "group": "5"
+    },
+    {
+      "question": "What is the result of the expression '5 / 2' in C#?",
+      "answers": ["2.5", "2", "2.0", "2.25"],
+      "correct": "2",
+      "group": "5"
+    },
+    {
+      "question": "Which of the following is NOT a valid way to declare and initialize a string variable in C#?",
+      "answers": [
+        "string name = \"John\";",
+        "string name = 'John';",
+        "string name = null;",
+        "string name = string.Empty;"
+      ],
+      "correct": "string name = 'John';",
+      "group": "5"
+    },
+    {
+      "question": "What is the result of the expression 'true && false' in C#?",
+      "answers": ["true", "false", "null", "error"],
+      "correct": "false",
+      "group": "5"
+    },
+    {
+      "question": "Which loop structure is used to iterate over a collection of items in C#?",
+      "answers": ["foreach", "for", "while", "do-while"],
+      "correct": "foreach",
+      "group": "5"
+    },
+    {
+      "question": "What is the default access modifier for class members in C#?",
+      "answers": ["private", "public", "protected", "internal"],
+      "correct": "private",
+      "group": "5"
+    },
+    {
+      "question": "What does the 'new' keyword do in C#?",
+      "answers": [
+        "Allocates memory for a new object",
+        "Declares a new method",
+        "Creates a new thread",
+        "Loads a new assembly"
+      ],
+      "correct": "Allocates memory for a new object",
+      "group": "5"
+    },
+    {
+      "question": "What is the output of 'Console.WriteLine(5 == 5);' in C#?",
+      "answers": ["True", "False", "Error", "Null"],
+      "correct": "True",
+      "group": "5"
+    },
+    {
+      "question": "Which of the following is used to define inheritance in C#?",
+      "answers": [":", "::", ".", "->"],
+      "correct": ":",
+      "group": "5"
+    },
+    {
+      "question": "Which keyword is used to exit from a loop prematurely in C#?",
+      "answers": ["break", "continue", "return", "exit"],
+      "correct": "break",
+      "group": "5"
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in C#?",
+      "answers": [
+        "Refers to the current instance of the class",
+        "Declares a new class",
+        "Invokes a static method",
+        "Assigns a value to a variable"
+      ],
+      "correct": "Refers to the current instance of the class",
+      "group": "5"
+    },
+    {
+      "question": "Which keyword is used to prevent a class from being inherited in C#?",
+      "answers": ["sealed", "final", "static", "private"],
+      "correct": "sealed",
+      "group": "5"
+    },
+    {
+      "question": "What is the purpose of the 'using' directive in C#?",
+      "answers": [
+        "To import namespaces",
+        "To define conditional compilation symbols",
+        "To include external libraries",
+        "To declare variables"
+      ],
+      "correct": "To import namespaces",
+      "group": "5"
+    },
+    {
+      "question": "What does the 'base' keyword refer to in C#?",
+      "answers": [
+        "Refers to the base class of the current instance",
+        "Refers to the top-level class in the inheritance hierarchy",
+        "Refers to the derived class of the current instance",
+        "Refers to the parent class of the current instance"
+      ],
+      "correct": "Refers to the base class of the current instance",
+      "group": "5"
+    },
+    {
+      "question": "What is the purpose of the 'override' keyword in C#?",
+      "answers": [
+        "To override a base class method in a derived class",
+        "To hide a base class method in a derived class",
+        "To prevent inheritance",
+        "To create an interface method"
+      ],
+      "correct": "To override a base class method in a derived class",
+      "group": "5"
+    },
+    {
+      "question": "Which of the following is NOT a valid C# access modifier?",
+      "answers": ["friendly", "private", "protected", "public"],
+      "correct": "friendly",
+      "group": "5"
+    },
+    {
+      "question": "What is a method in C#?",
+      "answers": [
+        "A block of code that performs a specific task",
+        "A variable declaration",
+        "A loop structure",
+        "A data type"
+      ],
+      "correct": "A block of code that performs a specific task",
+      "group": "5"
+    },
+    {
+      "question": "Which keyword is used to define a method in C#?",
+      "answers": ["method", "func", "procedure", "void"],
+      "correct": "void",
+      "group": "5"
+    },
+    {
+      "question": "What is the purpose of method parameters in C#?",
+      "answers": [
+        "To specify input values",
+        "To define the return type",
+        "To declare local variables",
+        "To control access modifiers"
+      ],
+      "correct": "To specify input values",
+      "group": "5"
+    },
+    {
+      "question": "Which of the following is NOT a valid return type for a C# method?",
+      "answers": ["int", "void", "double[]", "string"],
+      "correct": "double[]",
+      "group": "5"
+    },
+    {
+      "question": "What is method overloading in C#?",
+      "answers": [
+        "Defining multiple methods with the same name but different parameters",
+        "Calling a method from another method",
+        "Creating a method inside another method",
+        "Returning multiple values from a method"
+      ],
+      "correct": "Defining multiple methods with the same name but different parameters",
+      "group": "5"
+    },
+    {
+      "question": "What is the fundamental difference between value types and reference types in C#?",
+      "answers": ["Value types store their data directly, while reference types store a reference to their data", "Value types are smaller in size than reference types", "Value types can only be used with primitive data types, while reference types can store objects", "Value types are immutable, while reference types are mutable"],
+      "correct": "Value types store their data directly, while reference types store a reference to their data",
+      "group": "5"
+  },
+  {
+      "question": "Which of the following is an example of a value type in C#?",
+      "answers": ["int", "string", "object", "List<int>"],
+      "correct": "int",
+      "group": "5"
+  },
+  {
+      "question": "What happens when a value type variable is passed as an argument to a method in C#?",
+      "answers": ["A copy of the value is passed to the method", "The original variable is passed to the method", "A reference to the value is passed to the method", "The value is converted to a reference type"],
+      "correct": "A copy of the value is passed to the method",
+      "group": "5"
+  },
+  {
+      "question": "Which of the following is NOT a reference type in C#?",
+      "answers": ["string", "object", "int[]", "List<int>"],
+      "correct": "int[]",
+      "group": "5"
+  },
+  {
+      "question": "What is the default value for a reference type variable in C#?",
+      "answers": ["null", "0", "false", "undefined"],
+      "correct": "null",
+      "group": "5"
+  },
+  {
+      "question": "What is the default behavior of assignment for value types in C#?",
+      "answers": ["A copy of the value is made", "A reference to the value is passed", "The original value is modified", "The value is deleted"],
+      "correct": "A copy of the value is made",
+      "group": "5"
+  },
+  {
+      "question": "Which type of variable is stored on the stack in C#?",
+      "answers": ["Value type", "Reference type", "Both", "Neither"],
+      "correct": "Value type",
+      "group": "5"
+  },
+  {
+      "question": "What is the result of comparing two reference type variables for equality in C#?",
+      "answers": ["It compares the references, not the values", "It compares the values, not the references", "It always returns true", "It always returns false"],
+      "correct": "It compares the references, not the values",
+      "group": "5"
+  },
+  {
+      "question": "Which type of type is nullable in C#?",
+      "answers": ["Value type", "Reference type", "Both", "Neither"],
+      "correct": "Value type",
+      "group": "5"
+  }
   ]
 }

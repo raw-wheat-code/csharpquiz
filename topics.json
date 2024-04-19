@@ -11,8 +11,18 @@
       },
       
       {
-        "topicName": "Test",
+        "topicName": ".NET Platform",
         "topicId": 3
+      },
+      
+      {
+        "topicName": ".NET SDK and CLI",
+        "topicId": 4
+      },
+      
+      {
+        "topicName": "C# Basics, Methods, Value and Reference Types",
+        "topicId": 5
       }
     ]
   }
