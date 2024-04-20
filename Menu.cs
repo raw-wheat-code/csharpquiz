@@ -6,13 +6,13 @@ namespace csharpquiz
     public class Menu
     {
         private readonly QuizHandler quizHandler;
-        private GenerateQuestions generateQuestions =new GenerateQuestions();
+        JsonHandler jsonHandler = new JsonHandler();
 
         private string userInput;
         private int topicId;
         private bool isValid = false;
         private bool keepAlive = false;
-        private List<string> countAnswers = ["1", "2", "3", "5", "8", "13", "21", "34", "55"];
+        private List<string> countAnswers = ["5", "10", "25", "50", "100"];
         private int count;
 
         public Menu()
@@ -67,8 +67,7 @@ namespace csharpquiz
 
         private void PrintTopics()
         {
-            GenerateTopics generateTopics = new GenerateTopics();
-            TopicList topics = generateTopics.LoadTopicsFromJson();
+            TopicList topics = jsonHandler.LoadTopicsFromJson();
 
             do
             {
@@ -101,7 +100,7 @@ namespace csharpquiz
         private void PrintQuestionCount()
         {
             char letter = 'A';
-            int max = generateQuestions.QuestionCountByTopicList(topicId);
+            int max = jsonHandler.QuestionCountByTopicList(topicId);
 
             do
             {

@@ -19,14 +19,14 @@ namespace csharpquiz
         {
             // Get question set
             gradeQuiz.ResetQuizScore();
-            GenerateQuestions generateQuestions = new GenerateQuestions();
-            QuestionList questionList = generateQuestions.LoadQuizFromJson(menu.TopicId, count);
+            JsonHandler jsonHandler = new JsonHandler();
+            QuestionList questionList = jsonHandler.LoadQuizFromJson(menu.TopicId, count);
 
             int id = 1; // index to iterate and print to console.
 
             foreach (Question question in questionList.Questions)
             {
-                WriteQuestionToConsole(question, id, generateQuestions);
+                WriteQuestionToConsole(question, id);
                 do
                 {
                     userInput = Console.ReadLine();
@@ -78,14 +78,11 @@ namespace csharpquiz
         }
 
         // Reusable method to write question text and answers to the console
-        private void WriteQuestionToConsole(Question question, int id, GenerateQuestions generateQuestions)
+        private void WriteQuestionToConsole(Question question, int id)
         {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Question #" + id + ": " + question.question);
             Console.ResetColor();
-
-            // Shuffle the order of the list of possible answers
-            // generateQuestions.Shuffle(question.answers);
 
             char letter = 'A';
 
