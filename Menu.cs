@@ -32,28 +32,59 @@ namespace csharpquiz
             private set { topicId = value; }
         }
 
+        public void MenuOptions()
+        {
+            bool isValid = false;
+            do
+            {
+                Score score = jsonHandler.ReadScoreFromJson();
+                int selection;
+                
+                Console.Clear();
+                Console.WriteLine("What would you like to do?");
+                Console.WriteLine("1. Take a quiz.");
+                Console.WriteLine("2. View your rolling score");
+                Console.WriteLine("9. Exit");
+                var userInput = Console.ReadLine();
+                isValid = int.TryParse(userInput, out selection);
+                switch(selection)
+                    {
+                        case 1: 
+                        Start();
+                        break;
+                        case 2:
+                        ScoreHistory.ScoreMenu();
+                        break;
+                        case 9:
+                        Console.WriteLine("Ok, Goodbye.");
+                        break;
+                        default:
+                        Console.WriteLine("Invalid entry.");
+                        isValid = false;
+                        break;
+                    }
+
+            }
+            while(isValid == false);
+
+
+
+
+
+        }
+
+
         public void Start()
         {
-            Console.Clear();
-            Console.WriteLine("Would you like to take a quiz? (Y/N)");
-            userInput = Console.ReadLine();
 
-            if (HandleGeneralInput(userInput, "Y"))
-            {
-                do
-                {
+
                     Console.Clear();
                     PrintTopics();
                     PrintQuestionCount();
                     quizHandler.BeginQuiz(count);
-                    keepAlive = AnotherQuiz.QuizAgain();
-                }
-                while (keepAlive);
-            }
-            else
-            {
-                Console.WriteLine("Ok, goodbye.");
-            }
+                    MenuOptions();
+
+
         }
 
         private bool HandleGeneralInput(string input, string expected)

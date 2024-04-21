@@ -55,6 +55,25 @@ namespace csharpquiz
             return new TopicList();
         }
 
+        public Score ReadScoreFromJson()
+        {
+            string filePath = GetFilePath(@"\scores.json");
+            if(File.Exists(filePath))
+            {
+                string json = File.ReadAllText(filePath);
+                Score score = JsonConvert.DeserializeObject<Score>(json);
+                return score;              
+            }
+            return new Score();
+        }
+
+        public void WriteScoreToJson(Score score)
+        {
+            string filePath = GetFilePath(@"\scores.json");
+            string jsonScore = JsonConvert.SerializeObject(score);
+            File.WriteAllText(filePath, jsonScore); 
+        }
+
         private void FluffAndGroomTheQuestionList(QuestionList questionList, int count)
         {
             // shuffle the order of the list

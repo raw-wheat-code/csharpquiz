@@ -58,7 +58,22 @@ namespace csharpquiz
             }
             return true;
         }
+
+        public static bool MenuOptionValidator(string userInput)
+        {
+            int selection = 0;
+            return int.TryParse(userInput, out selection);
+
+        }
+
+
+
+
+
+
+
     }
+
 
 
 

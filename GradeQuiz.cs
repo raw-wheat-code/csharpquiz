@@ -32,7 +32,10 @@ namespace csharpquiz
         public void GetScore()
         {
             double percentage = (double)correctCount / questionCount;
+            ScoreHistory.SaveScore(correctCount, questionCount);
             Console.WriteLine("Your Score: " + correctCount + "/" + questionCount + " (" + percentage.ToString("P") + ")");
+        
+            Console.ReadKey();
         }
     }
 }
