@@ -167,7 +167,7 @@
     },
     {
       "question": "Which of the following is NOT a .NET programming language?",
-      "answers": ["C#", "Java", "F#", "VB.NET"],
+      "answers": ["C#", "C++", "F#", "VB.NET"],
       "correct": "Java",
       "group": "3"
     },
@@ -886,21 +886,130 @@
       "group": "5"
     },
     {
-      "question": "What is the purpose of the 'using' statement in C#?",
-      "answers": [
-        "To ensure proper disposal of resources",
-        "To define a namespace",
-        "To declare variables",
-        "To perform string manipulation"
-      ],
-      "correct": "To ensure proper disposal of resources",
-      "group": "5"
-    },
-    {
       "question": "Which of the following is NOT a standard exception handling block in C#?",
       "answers": ["try", "catch", "finally", "else"],
       "correct": "else",
       "group": "5"
-    }
+    },
+    {
+      "question": "What is encapsulation in object-oriented programming (OOP)?",
+      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "correct": "The bundling of data and methods that operate on that data into a single unit",
+      "group": "6"
+  },
+  {
+      "question": "What is inheritance in object-oriented programming (OOP)?",
+      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "correct": "The ability to inherit properties and behavior from another class",
+      "group": "6"
+  },
+  {
+      "question": "What is polymorphism in object-oriented programming (OOP)?",
+      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "correct": "The ability to modify the behavior of a method in a subclass",
+      "group": "6"
+  },
+  {
+      "question": "What is a class in object-oriented programming (OOP)?",
+      "answers": ["A blueprint for creating objects", "An instance of a class", "A method that belongs to a class", "A variable that holds data"],
+      "correct": "A blueprint for creating objects",
+      "group": "6"
+  },
+  {
+      "question": "What is an object in object-oriented programming (OOP)?",
+      "answers": ["An instance of a class", "A blueprint for creating objects", "A method that belongs to a class", "A variable that holds data"],
+      "correct": "An instance of a class",
+      "group": "6"
+  },
+  {
+      "question": "What is a constructor in object-oriented programming (OOP)?",
+      "answers": ["A method that is automatically called when an object is created", "A method that belongs to a class", "A method that modifies the behavior of another method", "A method that creates multiple instances of a class"],
+      "correct": "A method that is automatically called when an object is created",
+      "group": "6"
+  },
+  {
+      "question": "What is a method in object-oriented programming (OOP)?",
+      "answers": ["A function that belongs to a class", "An instance of a class", "A variable that holds data", "A blueprint for creating objects"],
+      "correct": "A function that belongs to a class",
+      "group": "6"
+  },
+  {
+      "question": "What is a property in object-oriented programming (OOP)?",
+      "answers": ["A characteristic of an object that has a value", "An instance of a class", "A method that belongs to a class", "A blueprint for creating objects"],
+      "correct": "A characteristic of an object that has a value",
+      "group": "6"
+  },
+  {
+      "question": "What is abstraction in object-oriented programming (OOP)?",
+      "answers": ["The process of hiding implementation details and showing only essential features of an object", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "correct": "The process of hiding implementation details and showing only essential features of an object",
+      "group": "6"
+  },
+  {
+      "question": "Which of the following is not a principle of object-oriented programming (OOP)?",
+      "answers": ["Efficiency", "Encapsulation", "Inheritance", "Polymorphism"],
+      "correct": "Efficiency",
+      "group": "6"
+  },
+{
+      "question": "What is the main purpose of encapsulation in object-oriented programming?",
+      "answers": ["To bundle data and methods together into a single unit", "To allow for the reuse of code through inheritance", "To create multiple instances of a class", "To modify the behavior of a method in a subclass"],
+      "correct": "To bundle data and methods together into a single unit",
+      "group": "6"
+  },
+  {
+      "question": "What does inheritance enable in object-oriented programming?",
+      "answers": ["The creation of new classes based on existing ones", "The ability to modify the behavior of a method in a subclass", "The process of creating multiple instances of a class", "The bundling of data and methods into a single unit"],
+      "correct": "The creation of new classes based on existing ones",
+      "group": "6"
+  },
+  {
+      "question": "What is the primary advantage of polymorphism in object-oriented programming?",
+      "answers": ["Flexibility and extensibility of code", "Data encapsulation", "Code reusability through inheritance", "Strict data typing"],
+      "correct": "Flexibility and extensibility of code",
+      "group": "6"
+  },
+  {
+      "question": "What is the relationship between a class and an object in object-oriented programming?",
+      "answers": ["A class is a blueprint for creating objects", "An object is a blueprint for creating classes", "A class and an object are interchangeable terms", "A class is a property of an object"],
+      "correct": "A class is a blueprint for creating objects",
+      "group": "6"
+  },
+  {
+      "question": "What is the purpose of a constructor in object-oriented programming?",
+      "answers": ["To initialize an object when it is created", "To define properties and methods of a class", "To modify the behavior of a method in a subclass", "To create multiple instances of a class"],
+      "correct": "To initialize an object when it is created",
+      "group": "6"
+  },
+  {
+      "question": "Which term describes the ability of a method to be defined in multiple forms?",
+      "answers": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "correct": "Polymorphism",
+      "group": "6"
+  },
+  {
+      "question": "What is a method signature in object-oriented programming?",
+      "answers": ["The combination of a method's name and its parameter types", "The return type of a method", "The access modifier of a method", "The visibility of a method"],
+      "correct": "The combination of a method's name and its parameter types",
+      "group": "6"
+  },
+  {
+      "question": "What is the primary purpose of a property in object-oriented programming?",
+      "answers": ["To provide controlled access to class fields", "To define behavior for a class", "To create multiple instances of a class", "To bundle data and methods into a single unit"],
+      "correct": "To provide controlled access to class fields",
+      "group": "6"
+  },
+  {
+      "question": "What does the term 'abstraction' refer to in object-oriented programming?",
+      "answers": ["Hiding unnecessary details and showing only essential features of an object", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "correct": "Hiding unnecessary details and showing only essential features of an object",
+      "group": "6"
+  },
+  {
+      "question": "Which principle of object-oriented programming emphasizes the bundling of data and methods into a single unit?",
+      "answers": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "correct": "Encapsulation",
+      "group": "6"
+  }
   ]
 }
