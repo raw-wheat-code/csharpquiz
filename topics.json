@@ -21,6 +21,10 @@
       {
         "topicName": "Strings and Arrays, Methods and Exceptions",
         "topicId": 5
+      },
+      {
+        "topicName": "Principles of Object-Oriented Programming",
+        "topicId": 6
       }
     ]
   }
