@@ -25,6 +25,10 @@
       {
         "topicName": "Principles of Object-Oriented Programming",
         "topicId": 6
+      },
+      {
+        "topicName": "Lists, Dictionaries, Access Modifies, and Classes",
+        "topicId": 7
       }
     ]
   }

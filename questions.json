@@ -1010,6 +1010,161 @@
       "answers": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
       "correct": "Encapsulation",
       "group": "6"
-  }
+  },
+  {
+    "question": "Which data structure in C# allows for storing a collection of elements where each element is accessed by an index?",
+    "answers": ["List", "Dictionary", "Array", "Set"],
+    "correct": "List",
+    "group": "7"
+},
+{
+    "question": "Which of the following statements is true about lists in C#?",
+    "answers": ["Lists can contain elements of different data types", "Lists are fixed-size collections", "Lists store elements in a key-value pair format", "Lists allow duplicate elements"],
+    "correct": "Lists allow duplicate elements",
+    "group": "7"
+},
+{
+    "question": "What method is used to add an element to the end of a list in C#?",
+    "answers": [".Add()", ".Insert()", ".Append()", ".Push()"],
+    "correct": ".Add()",
+    "group": "7"
+},
+{
+    "question": "How do you access an element at a specific index in a list in C#?",
+    "answers": ["Using the square bracket notation [index]", "Using the .Get() method", "Using the .ElementAt() method", "Using the .Find() method"],
+    "correct": "Using the square bracket notation [index]",
+    "group": "7"
+},
+{
+    "question": "What method is used to add a key-value pair to a dictionary in C#?",
+    "answers": [".Add()", ".Insert()", ".Append()", ".Put()"],
+    "correct": ".Add()",
+    "group": "7"
+},
+{
+    "question": "How do you access the value associated with a specific key in a dictionary in C#?",
+    "answers": ["Using the square bracket notation [key]", "Using the .GetValue() method", "Using the .Find() method", "Using the .ValueAt() method"],
+    "correct": "Using the square bracket notation [key]",
+    "group": "7"
+},
+{
+    "question": "Which of the following methods removes the element at a specific index from a list in C#?",
+    "answers": [".RemoveAt()", ".Remove()", ".Delete()", ".Pop()"],
+    "correct": ".RemoveAt()",
+    "group": "7"
+},
+{
+    "question": "In C#, lists and dictionaries are examples of which programming concept?",
+    "answers": ["Collections", "Loops", "Conditions", "Methods"],
+    "correct": "Collections",
+    "group": "7"
+},
+{
+    "question": "What method is used to check if a key exists in a dictionary in C#?",
+    "answers": [".ContainsKey()", ".HasKey()", ".Exists()", ".CheckKey()"],
+    "correct": ".ContainsKey()",
+    "group": "7"
+},
+{
+  "question": "Which access modifier allows a member to be accessed from any other class in the same assembly or from a derived class in another assembly?",
+  "answers": ["public", "private", "protected", "internal"],
+  "correct": "protected",
+  "group": "7"
+},
+{
+  "question": "Which access modifier restricts access to members only within the same class?",
+  "answers": ["public", "private", "protected", "internal"],
+  "correct": "private",
+  "group": "7"
+},
+{
+  "question": "Which access modifier allows access only within the same assembly?",
+  "answers": ["public", "private", "protected", "internal"],
+  "correct": "internal",
+  "group": "7"
+},
+{
+  "question": "Which access modifier provides the broadest access within the program, allowing access from any code in the program?",
+  "answers": ["public", "private", "protected", "internal"],
+  "correct": "public",
+  "group": "7"
+},
+{
+  "question": "Which access modifier is used to specify that a member cannot be accessed from outside the containing class or from derived classes?",
+  "answers": ["public", "private", "protected", "internal"],
+  "correct": "private",
+  "group": "7"
+},
+{
+  "question": "What does the term 'assembly' refer to in the context of C#?",
+  "answers": [
+      "A collection of classes and resources that are built, versioned, and deployed as a single unit",
+      "A directory where source code files are stored",
+      "A type of access modifier in C#",
+      "A built-in data structure for storing collections of elements"
+  ],
+  "correct": "A collection of classes and resources that are built, versioned, and deployed as a single unit",
+  "group": "7"
+},
+{
+  "question": "In C#, a class is a blueprint for creating what?",
+  "answers": ["Objects", "Methods", "Variables", "Namespaces"],
+  "correct": "Objects",
+  "group": "7"
+},
+{
+  "question": "Which keyword is used to define a class in C#?",
+  "answers": ["class", "interface", "struct", "enum"],
+  "correct": "class",
+  "group": "7"
+},
+{
+  "question": "What is the default access modifier for a class in C# if not specified?",
+  "answers": ["private", "public", "internal", "protected"],
+  "correct": "internal",
+  "group": "7"
+},
+{
+  "question": "In C#, can a class inherit from multiple base classes?",
+  "answers": ["Yes", "No"],
+  "correct": "No",
+  "group": "7"
+},
+{
+  "question": "Which keyword is used to allow one class to inherit from another class in C#?",
+  "answers": ["extends", "implements", "inherits", "derives"],
+  "correct": "inherits",
+  "group": "7"
+},
+{
+  "question": "In C#, can a class be declared as both abstract and sealed?",
+  "answers": ["Yes", "No"],
+  "correct": "No",
+  "group": "7"
+},
+{
+  "question": "What is the purpose of the 'base' keyword in C#?",
+  "answers": ["To call a base class constructor", "To access members of the derived class", "To override a method in the base class", "To declare a base class"],
+  "correct": "To call a base class constructor",
+  "group": "7"
+},
+{
+  "question": "In C#, can a class have both static and instance members?",
+  "answers": ["Yes", "No"],
+  "correct": "Yes",
+  "group": "7"
+},
+{
+  "question": "Which of the following statements is true about static classes in C#?",
+  "answers": ["They cannot be instantiated", "They can be inherited", "They can have non-static members", "They can have access modifiers"],
+  "correct": "They cannot be instantiated",
+  "group": "7"
+},
+{
+  "question": "What is the purpose of the 'sealed' keyword when applied to a class in C#?",
+  "answers": ["To prevent inheritance", "To allow multiple inheritance", "To make the class abstract", "To make the class public"],
+  "correct": "To prevent inheritance",
+  "group": "7"
+}
   ]
 }
