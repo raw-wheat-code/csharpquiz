@@ -1328,11 +1328,11 @@
       "question": "What command do you use to create a branch in Git?",
       "answers": [
         "git clone",
-        "git checkout or git switch",
-        "git branch",
+        "git checkout -b or git branch",
+        "git tree",
         "git add"
       ],
-      "correct": "git checkout or git switch",
+      "correct": "git checkout -b or git branch",
       "group": "8"
     },
     {
