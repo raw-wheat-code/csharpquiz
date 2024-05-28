@@ -893,278 +893,928 @@
     },
     {
       "question": "What is encapsulation in object-oriented programming (OOP)?",
-      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "answers": [
+        "The bundling of data and methods that operate on that data into a single unit",
+        "The ability to inherit properties and behavior from another class",
+        "The process of creating multiple instances of a class",
+        "The ability to modify the behavior of a method in a subclass"
+      ],
       "correct": "The bundling of data and methods that operate on that data into a single unit",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is inheritance in object-oriented programming (OOP)?",
-      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "answers": [
+        "The bundling of data and methods that operate on that data into a single unit",
+        "The ability to inherit properties and behavior from another class",
+        "The process of creating multiple instances of a class",
+        "The ability to modify the behavior of a method in a subclass"
+      ],
       "correct": "The ability to inherit properties and behavior from another class",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is polymorphism in object-oriented programming (OOP)?",
-      "answers": ["The bundling of data and methods that operate on that data into a single unit", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "answers": [
+        "The bundling of data and methods that operate on that data into a single unit",
+        "The ability to inherit properties and behavior from another class",
+        "The process of creating multiple instances of a class",
+        "The ability to modify the behavior of a method in a subclass"
+      ],
       "correct": "The ability to modify the behavior of a method in a subclass",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is a class in object-oriented programming (OOP)?",
-      "answers": ["A blueprint for creating objects", "An instance of a class", "A method that belongs to a class", "A variable that holds data"],
+      "answers": [
+        "A blueprint for creating objects",
+        "An instance of a class",
+        "A method that belongs to a class",
+        "A variable that holds data"
+      ],
       "correct": "A blueprint for creating objects",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is an object in object-oriented programming (OOP)?",
-      "answers": ["An instance of a class", "A blueprint for creating objects", "A method that belongs to a class", "A variable that holds data"],
+      "answers": [
+        "An instance of a class",
+        "A blueprint for creating objects",
+        "A method that belongs to a class",
+        "A variable that holds data"
+      ],
       "correct": "An instance of a class",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is a constructor in object-oriented programming (OOP)?",
-      "answers": ["A method that is automatically called when an object is created", "A method that belongs to a class", "A method that modifies the behavior of another method", "A method that creates multiple instances of a class"],
+      "answers": [
+        "A method that is automatically called when an object is created",
+        "A method that belongs to a class",
+        "A method that modifies the behavior of another method",
+        "A method that creates multiple instances of a class"
+      ],
       "correct": "A method that is automatically called when an object is created",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is a method in object-oriented programming (OOP)?",
-      "answers": ["A function that belongs to a class", "An instance of a class", "A variable that holds data", "A blueprint for creating objects"],
+      "answers": [
+        "A function that belongs to a class",
+        "An instance of a class",
+        "A variable that holds data",
+        "A blueprint for creating objects"
+      ],
       "correct": "A function that belongs to a class",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is a property in object-oriented programming (OOP)?",
-      "answers": ["A characteristic of an object that has a value", "An instance of a class", "A method that belongs to a class", "A blueprint for creating objects"],
+      "answers": [
+        "A characteristic of an object that has a value",
+        "An instance of a class",
+        "A method that belongs to a class",
+        "A blueprint for creating objects"
+      ],
       "correct": "A characteristic of an object that has a value",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is abstraction in object-oriented programming (OOP)?",
-      "answers": ["The process of hiding implementation details and showing only essential features of an object", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "answers": [
+        "The process of hiding implementation details and showing only essential features of an object",
+        "The ability to inherit properties and behavior from another class",
+        "The process of creating multiple instances of a class",
+        "The ability to modify the behavior of a method in a subclass"
+      ],
       "correct": "The process of hiding implementation details and showing only essential features of an object",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "Which of the following is not a principle of object-oriented programming (OOP)?",
       "answers": ["Efficiency", "Encapsulation", "Inheritance", "Polymorphism"],
       "correct": "Efficiency",
       "group": "6"
-  },
-{
+    },
+    {
       "question": "What is the main purpose of encapsulation in object-oriented programming?",
-      "answers": ["To bundle data and methods together into a single unit", "To allow for the reuse of code through inheritance", "To create multiple instances of a class", "To modify the behavior of a method in a subclass"],
+      "answers": [
+        "To bundle data and methods together into a single unit",
+        "To allow for the reuse of code through inheritance",
+        "To create multiple instances of a class",
+        "To modify the behavior of a method in a subclass"
+      ],
       "correct": "To bundle data and methods together into a single unit",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What does inheritance enable in object-oriented programming?",
-      "answers": ["The creation of new classes based on existing ones", "The ability to modify the behavior of a method in a subclass", "The process of creating multiple instances of a class", "The bundling of data and methods into a single unit"],
+      "answers": [
+        "The creation of new classes based on existing ones",
+        "The ability to modify the behavior of a method in a subclass",
+        "The process of creating multiple instances of a class",
+        "The bundling of data and methods into a single unit"
+      ],
       "correct": "The creation of new classes based on existing ones",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is the primary advantage of polymorphism in object-oriented programming?",
-      "answers": ["Flexibility and extensibility of code", "Data encapsulation", "Code reusability through inheritance", "Strict data typing"],
+      "answers": [
+        "Flexibility and extensibility of code",
+        "Data encapsulation",
+        "Code reusability through inheritance",
+        "Strict data typing"
+      ],
       "correct": "Flexibility and extensibility of code",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is the relationship between a class and an object in object-oriented programming?",
-      "answers": ["A class is a blueprint for creating objects", "An object is a blueprint for creating classes", "A class and an object are interchangeable terms", "A class is a property of an object"],
+      "answers": [
+        "A class is a blueprint for creating objects",
+        "An object is a blueprint for creating classes",
+        "A class and an object are interchangeable terms",
+        "A class is a property of an object"
+      ],
       "correct": "A class is a blueprint for creating objects",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is the purpose of a constructor in object-oriented programming?",
-      "answers": ["To initialize an object when it is created", "To define properties and methods of a class", "To modify the behavior of a method in a subclass", "To create multiple instances of a class"],
+      "answers": [
+        "To initialize an object when it is created",
+        "To define properties and methods of a class",
+        "To modify the behavior of a method in a subclass",
+        "To create multiple instances of a class"
+      ],
       "correct": "To initialize an object when it is created",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "Which term describes the ability of a method to be defined in multiple forms?",
-      "answers": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "answers": [
+        "Polymorphism",
+        "Inheritance",
+        "Encapsulation",
+        "Abstraction"
+      ],
       "correct": "Polymorphism",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is a method signature in object-oriented programming?",
-      "answers": ["The combination of a method's name and its parameter types", "The return type of a method", "The access modifier of a method", "The visibility of a method"],
+      "answers": [
+        "The combination of a method's name and its parameter types",
+        "The return type of a method",
+        "The access modifier of a method",
+        "The visibility of a method"
+      ],
       "correct": "The combination of a method's name and its parameter types",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What is the primary purpose of a property in object-oriented programming?",
-      "answers": ["To provide controlled access to class fields", "To define behavior for a class", "To create multiple instances of a class", "To bundle data and methods into a single unit"],
+      "answers": [
+        "To provide controlled access to class fields",
+        "To define behavior for a class",
+        "To create multiple instances of a class",
+        "To bundle data and methods into a single unit"
+      ],
       "correct": "To provide controlled access to class fields",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "What does the term 'abstraction' refer to in object-oriented programming?",
-      "answers": ["Hiding unnecessary details and showing only essential features of an object", "The ability to inherit properties and behavior from another class", "The process of creating multiple instances of a class", "The ability to modify the behavior of a method in a subclass"],
+      "answers": [
+        "Hiding unnecessary details and showing only essential features of an object",
+        "The ability to inherit properties and behavior from another class",
+        "The process of creating multiple instances of a class",
+        "The ability to modify the behavior of a method in a subclass"
+      ],
       "correct": "Hiding unnecessary details and showing only essential features of an object",
       "group": "6"
-  },
-  {
+    },
+    {
       "question": "Which principle of object-oriented programming emphasizes the bundling of data and methods into a single unit?",
-      "answers": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "answers": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction"
+      ],
       "correct": "Encapsulation",
       "group": "6"
-  },
-  {
-    "question": "Which data structure in C# allows for storing a collection of elements where each element is accessed by an index?",
-    "answers": ["List", "Dictionary", "Array", "Set"],
-    "correct": "List",
-    "group": "7"
-},
-{
-    "question": "Which of the following statements is true about lists in C#?",
-    "answers": ["Lists can contain elements of different data types", "Lists are fixed-size collections", "Lists store elements in a key-value pair format", "Lists allow duplicate elements"],
-    "correct": "Lists allow duplicate elements",
-    "group": "7"
-},
-{
-    "question": "What method is used to add an element to the end of a list in C#?",
-    "answers": [".Add()", ".Insert()", ".Append()", ".Push()"],
-    "correct": ".Add()",
-    "group": "7"
-},
-{
-    "question": "How do you access an element at a specific index in a list in C#?",
-    "answers": ["Using the square bracket notation [index]", "Using the .Get() method", "Using the .ElementAt() method", "Using the .Find() method"],
-    "correct": "Using the square bracket notation [index]",
-    "group": "7"
-},
-{
-    "question": "What method is used to add a key-value pair to a dictionary in C#?",
-    "answers": [".Add()", ".Insert()", ".Append()", ".Put()"],
-    "correct": ".Add()",
-    "group": "7"
-},
-{
-    "question": "How do you access the value associated with a specific key in a dictionary in C#?",
-    "answers": ["Using the square bracket notation [key]", "Using the .GetValue() method", "Using the .Find() method", "Using the .ValueAt() method"],
-    "correct": "Using the square bracket notation [key]",
-    "group": "7"
-},
-{
-    "question": "Which of the following methods removes the element at a specific index from a list in C#?",
-    "answers": [".RemoveAt()", ".Remove()", ".Delete()", ".Pop()"],
-    "correct": ".RemoveAt()",
-    "group": "7"
-},
-{
-    "question": "In C#, lists and dictionaries are examples of which programming concept?",
-    "answers": ["Collections", "Loops", "Conditions", "Methods"],
-    "correct": "Collections",
-    "group": "7"
-},
-{
-    "question": "What method is used to check if a key exists in a dictionary in C#?",
-    "answers": [".ContainsKey()", ".HasKey()", ".Exists()", ".CheckKey()"],
-    "correct": ".ContainsKey()",
-    "group": "7"
-},
-{
-  "question": "Which access modifier allows a member to be accessed from any other class in the same assembly or from a derived class in another assembly?",
-  "answers": ["public", "private", "protected", "internal"],
-  "correct": "protected",
-  "group": "7"
-},
-{
-  "question": "Which access modifier restricts access to members only within the same class?",
-  "answers": ["public", "private", "protected", "internal"],
-  "correct": "private",
-  "group": "7"
-},
-{
-  "question": "Which access modifier allows access only within the same assembly?",
-  "answers": ["public", "private", "protected", "internal"],
-  "correct": "internal",
-  "group": "7"
-},
-{
-  "question": "Which access modifier provides the broadest access within the program, allowing access from any code in the program?",
-  "answers": ["public", "private", "protected", "internal"],
-  "correct": "public",
-  "group": "7"
-},
-{
-  "question": "Which access modifier is used to specify that a member cannot be accessed from outside the containing class or from derived classes?",
-  "answers": ["public", "private", "protected", "internal"],
-  "correct": "private",
-  "group": "7"
-},
-{
-  "question": "What does the term 'assembly' refer to in the context of C#?",
-  "answers": [
-      "A collection of classes and resources that are built, versioned, and deployed as a single unit",
-      "A directory where source code files are stored",
-      "A type of access modifier in C#",
-      "A built-in data structure for storing collections of elements"
-  ],
-  "correct": "A collection of classes and resources that are built, versioned, and deployed as a single unit",
-  "group": "7"
-},
-{
-  "question": "In C#, a class is a blueprint for creating what?",
-  "answers": ["Objects", "Methods", "Variables", "Namespaces"],
-  "correct": "Objects",
-  "group": "7"
-},
-{
-  "question": "Which keyword is used to define a class in C#?",
-  "answers": ["class", "interface", "struct", "enum"],
-  "correct": "class",
-  "group": "7"
-},
-{
-  "question": "What is the default access modifier for a class in C# if not specified?",
-  "answers": ["private", "public", "internal", "protected"],
-  "correct": "internal",
-  "group": "7"
-},
-{
-  "question": "In C#, can a class inherit from multiple base classes?",
-  "answers": ["Yes", "No"],
-  "correct": "No",
-  "group": "7"
-},
-{
-  "question": "Which keyword is used to allow one class to inherit from another class in C#?",
-  "answers": ["extends", "implements", "inherits", "derives"],
-  "correct": "inherits",
-  "group": "7"
-},
-{
-  "question": "In C#, can a class be declared as both abstract and sealed?",
-  "answers": ["Yes", "No"],
-  "correct": "No",
-  "group": "7"
-},
-{
-  "question": "What is the purpose of the 'base' keyword in C#?",
-  "answers": ["To call a base class constructor", "To access members of the derived class", "To override a method in the base class", "To declare a base class"],
-  "correct": "To call a base class constructor",
-  "group": "7"
-},
-{
-  "question": "In C#, can a class have both static and instance members?",
-  "answers": ["Yes", "No"],
-  "correct": "Yes",
-  "group": "7"
-},
-{
-  "question": "Which of the following statements is true about static classes in C#?",
-  "answers": ["They cannot be instantiated", "They can be inherited", "They can have non-static members", "They can have access modifiers"],
-  "correct": "They cannot be instantiated",
-  "group": "7"
-},
-{
-  "question": "What is the purpose of the 'sealed' keyword when applied to a class in C#?",
-  "answers": ["To prevent inheritance", "To allow multiple inheritance", "To make the class abstract", "To make the class public"],
-  "correct": "To prevent inheritance",
-  "group": "7"
-}
+    },
+    {
+      "question": "Which data structure in C# allows for storing a collection of elements where each element is accessed by an index?",
+      "answers": ["List", "Dictionary", "Array", "Set"],
+      "correct": "List",
+      "group": "7"
+    },
+    {
+      "question": "Which of the following statements is true about lists in C#?",
+      "answers": [
+        "Lists can contain elements of different data types",
+        "Lists are fixed-size collections",
+        "Lists store elements in a key-value pair format",
+        "Lists allow duplicate elements"
+      ],
+      "correct": "Lists allow duplicate elements",
+      "group": "7"
+    },
+    {
+      "question": "What method is used to add an element to the end of a list in C#?",
+      "answers": [".Add()", ".Insert()", ".Append()", ".Push()"],
+      "correct": ".Add()",
+      "group": "7"
+    },
+    {
+      "question": "How do you access an element at a specific index in a list in C#?",
+      "answers": [
+        "Using the square bracket notation [index]",
+        "Using the .Get() method",
+        "Using the .ElementAt() method",
+        "Using the .Find() method"
+      ],
+      "correct": "Using the square bracket notation [index]",
+      "group": "7"
+    },
+    {
+      "question": "What method is used to add a key-value pair to a dictionary in C#?",
+      "answers": [".Add()", ".Insert()", ".Append()", ".Put()"],
+      "correct": ".Add()",
+      "group": "7"
+    },
+    {
+      "question": "How do you access the value associated with a specific key in a dictionary in C#?",
+      "answers": [
+        "Using the square bracket notation [key]",
+        "Using the .GetValue() method",
+        "Using the .Find() method",
+        "Using the .ValueAt() method"
+      ],
+      "correct": "Using the square bracket notation [key]",
+      "group": "7"
+    },
+    {
+      "question": "Which of the following methods removes the element at a specific index from a list in C#?",
+      "answers": [".RemoveAt()", ".Remove()", ".Delete()", ".Pop()"],
+      "correct": ".RemoveAt()",
+      "group": "7"
+    },
+    {
+      "question": "In C#, lists and dictionaries are examples of which programming concept?",
+      "answers": ["Collections", "Loops", "Conditions", "Methods"],
+      "correct": "Collections",
+      "group": "7"
+    },
+    {
+      "question": "What method is used to check if a key exists in a dictionary in C#?",
+      "answers": [".ContainsKey()", ".HasKey()", ".Exists()", ".CheckKey()"],
+      "correct": ".ContainsKey()",
+      "group": "7"
+    },
+    {
+      "question": "Which access modifier allows a member to be accessed from any other class in the same assembly or from a derived class in another assembly?",
+      "answers": ["public", "private", "protected", "internal"],
+      "correct": "protected",
+      "group": "7"
+    },
+    {
+      "question": "Which access modifier restricts access to members only within the same class?",
+      "answers": ["public", "private", "protected", "internal"],
+      "correct": "private",
+      "group": "7"
+    },
+    {
+      "question": "Which access modifier allows access only within the same assembly?",
+      "answers": ["public", "private", "protected", "internal"],
+      "correct": "internal",
+      "group": "7"
+    },
+    {
+      "question": "Which access modifier provides the broadest access within the program, allowing access from any code in the program?",
+      "answers": ["public", "private", "protected", "internal"],
+      "correct": "public",
+      "group": "7"
+    },
+    {
+      "question": "Which access modifier is used to specify that a member cannot be accessed from outside the containing class or from derived classes?",
+      "answers": ["public", "private", "protected", "internal"],
+      "correct": "private",
+      "group": "7"
+    },
+    {
+      "question": "What does the term 'assembly' refer to in the context of C#?",
+      "answers": [
+        "A collection of classes and resources that are built, versioned, and deployed as a single unit",
+        "A directory where source code files are stored",
+        "A type of access modifier in C#",
+        "A built-in data structure for storing collections of elements"
+      ],
+      "correct": "A collection of classes and resources that are built, versioned, and deployed as a single unit",
+      "group": "7"
+    },
+    {
+      "question": "In C#, a class is a blueprint for creating what?",
+      "answers": ["Objects", "Methods", "Variables", "Namespaces"],
+      "correct": "Objects",
+      "group": "7"
+    },
+    {
+      "question": "Which keyword is used to define a class in C#?",
+      "answers": ["class", "interface", "struct", "enum"],
+      "correct": "class",
+      "group": "7"
+    },
+    {
+      "question": "What is the default access modifier for a class in C# if not specified?",
+      "answers": ["private", "public", "internal", "protected"],
+      "correct": "internal",
+      "group": "7"
+    },
+    {
+      "question": "In C#, can a class inherit from multiple base classes?",
+      "answers": ["Yes", "No"],
+      "correct": "No",
+      "group": "7"
+    },
+    {
+      "question": "Which keyword is used to allow one class to inherit from another class in C#?",
+      "answers": ["extends", "implements", "inherits", "derives"],
+      "correct": "inherits",
+      "group": "7"
+    },
+    {
+      "question": "In C#, can a class be declared as both abstract and sealed?",
+      "answers": ["Yes", "No"],
+      "correct": "No",
+      "group": "7"
+    },
+    {
+      "question": "What is the purpose of the 'base' keyword in C#?",
+      "answers": [
+        "To call a base class constructor",
+        "To access members of the derived class",
+        "To override a method in the base class",
+        "To declare a base class"
+      ],
+      "correct": "To call a base class constructor",
+      "group": "7"
+    },
+    {
+      "question": "In C#, can a class have both static and instance members?",
+      "answers": ["Yes", "No"],
+      "correct": "Yes",
+      "group": "7"
+    },
+    {
+      "question": "Which of the following statements is true about static classes in C#?",
+      "answers": [
+        "They cannot be instantiated",
+        "They can be inherited",
+        "They can have non-static members",
+        "They can have access modifiers"
+      ],
+      "correct": "They cannot be instantiated",
+      "group": "7"
+    },
+    {
+      "question": "What is the purpose of the 'sealed' keyword when applied to a class in C#?",
+      "answers": [
+        "To prevent inheritance",
+        "To allow multiple inheritance",
+        "To make the class abstract",
+        "To make the class public"
+      ],
+      "correct": "To prevent inheritance",
+      "group": "7"
+    },
+    {
+      "question": "What is Git?",
+      "answers": [
+        "A programming language",
+        "A distributed version control system",
+        "A code editor",
+        "A database management system"
+      ],
+      "correct": "A distributed version control system",
+      "group": "8"
+    },
+    {
+      "question": "What does Git allow us to do in a collaborative environment?",
+      "answers": [
+        "Track changes in source code",
+        "Deploy applications",
+        "Manage databases",
+        "Design user interfaces"
+      ],
+      "correct": "Track changes in source code",
+      "group": "8"
+    },
+    {
+      "question": "What is Gitbash?",
+      "answers": [
+        "An IDE for Windows",
+        "An application providing Git command line experience on Windows",
+        "A Git GUI for Linux",
+        "A database management tool"
+      ],
+      "correct": "An application providing Git command line experience on Windows",
+      "group": "8"
+    },
+    {
+      "question": "What command do you use to create a branch in Git?",
+      "answers": [
+        "git clone",
+        "git checkout or git switch",
+        "git branch",
+        "git add"
+      ],
+      "correct": "git checkout or git switch",
+      "group": "8"
+    },
+    {
+      "question": "Which command combines creating and switching to a new branch?",
+      "answers": [
+        "git branch -b",
+        "git checkout -b",
+        "git clone -b",
+        "git add -b"
+      ],
+      "correct": "git checkout -b",
+      "group": "8"
+    },
+    {
+      "question": "What command is used to clone a repository?",
+      "answers": ["git branch", "git checkout", "git clone", "git add"],
+      "correct": "git clone",
+      "group": "8"
+    },
+    {
+      "question": "What does the 'git add' command do?",
+      "answers": [
+        "Commits staged changes",
+        "Pushes committed changes to the remote repository",
+        "Stages changes for the next commit",
+        "Fetches and merges changes from the remote repository"
+      ],
+      "correct": "Stages changes for the next commit",
+      "group": "8"
+    },
+    {
+      "question": "What does the 'git commit' command do?",
+      "answers": [
+        "Commits staged changes",
+        "Pushes committed changes to the remote repository",
+        "Stages changes for the next commit",
+        "Fetches and merges changes from the remote repository"
+      ],
+      "correct": "Commits staged changes",
+      "group": "8"
+    },
+    {
+      "question": "What command pushes committed changes to the remote repository?",
+      "answers": ["git commit", "git pull", "git add", "git push"],
+      "correct": "git push",
+      "group": "8"
+    },
+    {
+      "question": "What command fetches and merges changes from the remote repository?",
+      "answers": ["git commit", "git pull", "git add", "git push"],
+      "correct": "git pull",
+      "group": "8"
+    },
+    {
+      "question": "How does Git help manage code changes from different contributors?",
+      "answers": [
+        "By providing code review tools",
+        "By maintaining a history of changes",
+        "By supporting branching and merging",
+        "All of the above"
+      ],
+      "correct": "All of the above",
+      "group": "8"
+    },
+    {
+      "question": "What command stages changes for the next commit?",
+      "answers": ["git add", "git commit", "git push", "git pull"],
+      "correct": "git add",
+      "group": "8"
+    },
+    {
+      "question": "What command commits the staged changes with a descriptive message?",
+      "answers": ["git add", "git commit -m", "git push", "git pull"],
+      "correct": "git commit -m",
+      "group": "8"
+    },
+    {
+      "question": "What is the main purpose of using Git in software development?",
+      "answers": [
+        "To deploy applications",
+        "To manage databases",
+        "To track changes in source code",
+        "To design user interfaces"
+      ],
+      "correct": "To track changes in source code",
+      "group": "8"
+    },
+    {
+      "question": "What are your OOP Fundamentals? (4 Pillars of OOP)",
+      "answers": [
+        "Abstraction, Encapsulation, Inheritance, Polymorphism",
+        "Variables, Methods, Properties, Events",
+        "Classes, Interfaces, Structs, Enums",
+        "Data Manipulation, Control Flow, Exception Handling, Database Management"
+      ],
+      "correct": "Abstraction, Encapsulation, Inheritance, Polymorphism",
+      "group": "8"
+    },
+    {
+      "question": "What does the syntax (in our code) look like for implementing an interface?",
+      "answers": [
+        "interface IExample { void DoSomething(); }",
+        "class ExampleClass { void DoSomething(); }",
+        "class ExampleClass : IExample { void DoSomething(); }",
+        "interface ExampleClass { void DoSomething(); }"
+      ],
+      "correct": "class ExampleClass : IExample { void DoSomething(); }",
+      "group": "8"
+    },
+    {
+      "question": "What does the syntax (in our code) look like for inheriting from a parent class?",
+      "answers": [
+        "class ChildClass : ParentClass { void ChildMethod(); }",
+        "class ChildClass { void ParentClass(); }",
+        "class ParentClass : ChildClass { void ParentMethod(); }",
+        "class ParentClass { void ChildClass(); }"
+      ],
+      "correct": "class ChildClass : ParentClass { void ChildMethod(); }",
+      "group": "8"
+    },
+    {
+      "question": "What is exception handling in C# and what are its components?",
+      "answers": [
+        "A way to handle HTTP requests and responses.",
+        "A way to handle unexpected conditions in your code.",
+        "A way to handle image rendering and animation.",
+        "A way to handle loops and conditions."
+      ],
+      "correct": "A way to handle unexpected conditions in your code.",
+      "group": "8"
+    },
+    {
+      "question": "What are class members? (fields/methods)",
+      "answers": [
+        "Variables only",
+        "Methods only",
+        "Properties only",
+        "Variables, methods, properties, events, constructors"
+      ],
+      "correct": "Variables, methods, properties, events, constructors",
+      "group": "8"
+    },
+    {
+      "question": "How do we declare a property (using that {get;set;})?",
+      "answers": [
+        "public int Property { get; set; }",
+        "public int Property = value;",
+        "public int Property() { get; set; }",
+        "public int Property; get; set;"
+      ],
+      "correct": "public int Property { get; set; }",
+      "group": "8"
+    },
+    {
+      "question": "What is a constructor? What does it allow us to do?",
+      "answers": [
+        "A special method to destroy objects.",
+        "A special method to initialize objects.",
+        "A special method to update objects.",
+        "A special method to create objects."
+      ],
+      "correct": "A special method to initialize objects.",
+      "group": "8"
+    },
+    {
+      "question": "How/when do we call a constructor?",
+      "answers": [
+        "When we create an instance of the class using the new keyword.",
+        "When we call a static method in the class.",
+        "When we declare a property in the class.",
+        "When we declare a field in the class."
+      ],
+      "correct": "When we create an instance of the class using the new keyword.",
+      "group": "8"
+    },
+    {
+      "question": "What are access modifiers in C# and how do they affect class members?",
+      "answers": [
+        "Modifiers to access the internet.",
+        "Modifiers to access databases.",
+        "Modifiers to access user interfaces.",
+        "Modifiers to control the accessibility of class members."
+      ],
+      "correct": "Modifiers to control the accessibility of class members.",
+      "group": "8"
+    },
+    {
+      "question": "What are the different access modifiers in C#?",
+      "answers": [
+        "Public, Private, Protected, Internal, Protected Internal",
+        "Start, Stop, Pause, Resume",
+        "Read, Write, Delete, Create",
+        "Static, Dynamic, Constant, Variable"
+      ],
+      "correct": "Public, Private, Protected, Internal, Protected Internal",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between a class and an interface in C#?",
+      "answers": [
+        "Classes can have constructors, interfaces cannot.",
+        "Classes can inherit multiple classes, interfaces cannot.",
+        "Classes can have methods with implementation, interfaces cannot.",
+        "Classes can have fields, interfaces cannot."
+      ],
+      "correct": "Classes can have methods with implementation, interfaces cannot.",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between List and Dictionary in C#?",
+      "answers": [
+        "List is indexed, Dictionary is not.",
+        "List is unordered, Dictionary is ordered.",
+        "List is a collection of key-value pairs, Dictionary is a collection of values.",
+        "List is a collection of values, Dictionary is a collection of key-value pairs."
+      ],
+      "correct": "List is a collection of values, Dictionary is a collection of key-value pairs.",
+      "group": "8"
+    },
+    {
+      "question": "What does a .csproj file contain?",
+      "answers": [
+        "Metadata about our project (name, version)",
+        "Package references brought in via NuGet",
+        "Project references to other .csproj files",
+        "All of the above"
+      ],
+      "correct": "All of the above",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of ADO.NET in C#?",
+      "answers": [
+        "To create user interfaces.",
+        "To manage object-oriented databases.",
+        "To access and manipulate data in databases.",
+        "To connect to the internet."
+      ],
+      "correct": "To access and manipulate data in databases.",
+      "group": "8"
+    },
+    {
+      "question": "What are the SQL Sublanguages used in database operations?",
+      "answers": [
+        "Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL)",
+        "Structured Query Language (SQL), Dynamic Query Language (DQL), Database Management Language (DBML), Data Control Language (DCL)",
+        "Database Query Language (DQL), Database Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL)",
+        "Data Query Language (DQL), Database Definition Language (DDL), Data Modification Language (DML), Data Control Language (DCL)"
+      ],
+      "correct": "Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL)",
+      "group": "8"
+    },
+    {
+      "question": "What does the SELECT statement with a WHERE clause do?",
+      "answers": [
+        "Returns all columns from a table.",
+        "Returns all rows from a table.",
+        "Returns specific columns from a table based on a condition.",
+        "Returns specific rows from a table based on a condition."
+      ],
+      "correct": "Returns specific columns from a table based on a condition.",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of SQL Joins?",
+      "answers": [
+        "To combine rows from two or more tables based on a related column.",
+        "To create new tables from existing tables.",
+        "To delete rows from a table.",
+        "To insert rows into a table."
+      ],
+      "correct": "To combine rows from two or more tables based on a related column.",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between Inner Join and Left Outer Join (Left Join)?",
+      "answers": [
+        "Inner Join returns all rows from the left table and the matched rows from the right table.",
+        "Left Join returns only the rows that have matching values in both tables.",
+        "Inner Join returns all rows from both tables, regardless if there is a match.",
+        "Left Join returns all rows from the left table and the matched rows from the right table."
+      ],
+      "correct": "Left Join returns all rows from the left table and the matched rows from the right table.",
+      "group": "8"
+    },
+    {
+      "question": "What are the properties of a Primary Key in SQL?",
+      "answers": [
+        "Allows NULL values and ensures uniqueness.",
+        "Does not allow NULL values and ensures uniqueness.",
+        "Allows NULL values but does not ensure uniqueness.",
+        "Does not allow NULL values but does not ensure uniqueness."
+      ],
+      "correct": "Does not allow NULL values and ensures uniqueness.",
+      "group": "8"
+    },
+    {
+      "question": "What is a Foreign Key in SQL?",
+      "answers": [
+        "A key that uniquely identifies each record in a table.",
+        "A key that establishes a relationship between two tables.",
+        "A key that defines the primary structure of a table.",
+        "A key that determines access permissions."
+      ],
+      "correct": "A key that establishes a relationship between two tables.",
+      "group": "8"
+    },
+    {
+      "question": "How do NULL values behave within a Join query in SQL?",
+      "answers": [
+        "NULLs are treated as empty strings.",
+        "NULLs cause an error in the query.",
+        "NULLs are excluded unless handled with IS NULL or COALESCE.",
+        "NULLs are included regardless of the join condition."
+      ],
+      "correct": "NULLs are excluded unless handled with IS NULL or COALESCE.",
+      "group": "8"
+    },
+      {
+        "question": "What is ADO.NET?",
+        "answers": [
+          "A data access technology from the .NET Framework.",
+          "A web development framework.",
+          "A machine learning library.",
+          "An operating system."
+        ],
+        "correct": "A data access technology from the .NET Framework.",
+        "group": "8"
+      },
+      {
+        "question": "What does ADO.NET allow us to do in our projects?",
+        "answers": [
+          "Build user interfaces.",
+          "Interact with databases and manage database connections.",
+          "Write and run web applications.",
+          "Create virtual reality environments."
+        ],
+        "correct": "Interact with databases and manage database connections.",
+        "group": "8"
+      },
+      {
+        "question": "What is a connection string in ADO.NET?",
+        "answers": [
+          "A string that connects to the internet.",
+          "A string that contains user credentials.",
+          "A string that contains information required to connect to a database.",
+          "A string that contains SQL queries."
+        ],
+        "correct": "A string that contains information required to connect to a database.",
+        "group": "8"
+      },
+      {
+        "question": "What is the behavior of the DataReader in ADO.NET?",
+        "answers": [
+          "Read/write, forward and backward.",
+          "Read only, forward only.",
+          "Read/write, random access.",
+          "Write only, forward only."
+        ],
+        "correct": "Read only, forward only.",
+        "group": "8"
+      },
+      {
+        "question": "What is the purpose of the DataReader in ADO.NET?",
+        "answers": [
+          "To modify data in a database.",
+          "To execute SQL queries.",
+          "To provide a way to read a forward-only stream of data from a database.",
+          "To manage database connections."
+        ],
+        "correct": "To provide a way to read a forward-only stream of data from a database.",
+        "group": "8"
+      },
+      {
+        "question": "What does the DataAdapter in ADO.NET do?",
+        "answers": [
+          "Executes commands against the database.",
+          "Provides a way to read a forward-only stream of data from a database.",
+          "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
+          "Manages transactions in ADO.NET."
+        ],
+        "correct": "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
+        "group": "8"
+      },
+      {
+        "question": "What is the purpose of the DataSet in ADO.NET?",
+        "answers": [
+          "To execute SQL commands against a database.",
+          "To provide a connected view of data from a database.",
+          "To represent a collection of tables that can be used to store and manipulate data.",
+          "To manage database connections."
+        ],
+        "correct": "To represent a collection of tables that can be used to store and manipulate data.",
+        "group": "8"
+      },
+        {
+          "question": "What is the purpose of the finally in a try-catch-finally block in C# exception handling?",
+          "answers": [
+            "To execute code only if no exception occurs.",
+            "To execute code even if an exception occurs.",
+            "To catch all exceptions and prevent them from crashing the program.",
+            "To throw exceptions intentionally."
+          ],
+          "correct": "To execute code even if an exception occurs.",
+          "group": "8"
+        },
+        {
+          "question": "What is the difference between public, private, and internal access modifiers in C#?",
+          "answers": [
+            "Public: Accessible only within the same class. Private: Accessible from anywhere. Internal: Accessible only within the same assembly.",
+            "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
+            "Public: Accessible only within the same assembly. Private: Accessible only within the same class. Internal: Accessible from anywhere.",
+            "Public: Accessible only within the same class. Private: Accessible only within the same assembly. Internal: Accessible from anywhere."
+          ],
+          "correct": "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
+          "group": "8"
+        },
+        {
+          "question": "Which of the following are types of loops available in C#?",
+          "answers": [
+            "for, foreach, do-while",
+            "for, while, if",
+            "while, do-while, switch",
+            "for, foreach, switch"
+          ],
+          "correct": "for, foreach, do-while",
+          "group": "8"
+        },
+        {
+          "question": "What is the purpose of the switch statement in C#?",
+          "answers": [
+            "To execute code only if no exception occurs.",
+            "To execute code even if an exception occurs.",
+            "To handle multiple cases based on a value.",
+            "To catch all exceptions and prevent them from crashing the program."
+          ],
+          "correct": "To handle multiple cases based on a value.",
+          "group": "8"
+        },
+        {
+          "question": "What is the difference between == and != in C#?",
+          "answers": [
+            "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
+            "==: Checks if two operands are not equal. !=: Checks if two operands are equal.",
+            "==: Checks if one operand is greater than the other. !=: Checks if one operand is less than the other.",
+            "==: Checks if one operand is less than the other. !=: Checks if one operand is greater than the other."
+          ],
+          "correct": "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
+          "group": "8"
+        },
+        {
+          "question": "What is the difference between a for loop and a foreach loop in C#?",
+          "answers": [
+            "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
+            "Foreach loop is used when you need to iterate through a collection with an index, while for loop is used for iterating through a collection without needing the index.",
+            "For loop can only iterate forward, while foreach loop can iterate both forward and backward.",
+            "Foreach loop can only iterate forward, while for loop can iterate both forward and backward."
+          ],
+          "correct": "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
+          "group": "8"
+        },
+        {
+          "question": "What is an interface in C#?",
+          "answers": [
+            "A blueprint for a class.",
+            "A data structure.",
+            "A contract that defines a set of members that implementing classes must provide.",
+            "An abstract class."
+          ],
+          "correct": "A contract that defines a set of members that implementing classes must provide.",
+          "group": "8"
+        },
+        {
+          "question": "What does a .csproj file contain in a C# project?",
+          "answers": [
+            "Only the project's name and version.",
+            "Meta-data about the project, such as its name, version, and target framework.",
+            "Package references from NuGet only.",
+            "References to other projects, such as for unit testing with xUnit only."
+          ],
+          "correct": "Meta-data about the project, such as its name, version, and target framework.",
+          "group": "8"
+        }  
   ]
 }
