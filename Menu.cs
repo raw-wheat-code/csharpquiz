@@ -147,7 +147,7 @@ namespace csharpquiz
                 userInput = Console.ReadLine();
                 Console.Clear();
             }
-            while (InputValidation.QuestionCountValidator(countAnswers, userInput));
+            while (InputValidation.QuestionCountInputIsInvalid(countAnswers, userInput));
 
             if (char.IsLetter(userInput, 0))
             {

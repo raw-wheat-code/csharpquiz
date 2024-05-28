@@ -1,6 +1,4 @@
 using System.Collections.Generic;
-
-using System.Formats.Asn1;
 using System.Linq;
 
 namespace csharpquiz
@@ -37,63 +35,30 @@ namespace csharpquiz
             return false;
         }
 
-        public static bool QuestionCountValidator(List<string> questionCount, string userInput)
+        public static bool QuestionCountInputIsInvalid(List<string> questionCount, string userInput)
         {
-            char letter = 'A';
+            int i = 0;
+
+            // 5, 10, 25, 50, 100
 
             foreach (string count in questionCount)
             {
-                for (int i = 0; i < questionCount.Count; i++)
+                char letter = (char)('A' + i);
+
+                if ((userInput == count) || userInput.ToLower() == letter.ToString().ToLower())
                 {
-                    letter = (char)(letter + i);
-                    if (userInput == count)
-                    {
-                        return false;
-                    }
-                    else if (userInput.ToLower() == letter.ToString().ToLower())
-                    {
-                        return false;
-                    }
+                    return false;
                 }
+                i++;
             }
             return true;
         }
-
-        public static bool MenuOptionValidator(string userInput)
-        {
-            int selection = 0;
-            return int.TryParse(userInput, out selection);
-
-        }
-
-
-
-
-
-
-
     }
 
+    // public static bool MenuOptionValidator(string userInput)
+    // {
+    //     int selection = 0;
+    //     return int.TryParse(userInput, out selection);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // }
 }
