@@ -1591,7 +1591,7 @@
         "Returns all columns from a table.",
         "Returns all rows from a table.",
         "Returns specific columns from a table based on a condition.",
-        "Returns specific rows from a table based on a condition."
+        "Returns all rows and columns from a table."
       ],
       "correct": "Returns specific columns from a table based on a condition.",
       "group": "8"
@@ -1804,17 +1804,6 @@
           ],
           "correct": "A contract that defines a set of members that implementing classes must provide.",
           "group": "8"
-        },
-        {
-          "question": "What does a .csproj file contain in a C# project?",
-          "answers": [
-            "Only the project's name and version.",
-            "Meta-data about the project, such as its name, version, and target framework.",
-            "Package references from NuGet only.",
-            "References to other projects, such as for unit testing with xUnit only."
-          ],
-          "correct": "Meta-data about the project, such as its name, version, and target framework.",
-          "group": "8"
-        }  
+        }
   ]
 }

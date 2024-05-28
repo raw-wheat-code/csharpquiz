@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {}
+    "C:\\Tools\\repos\\csharpquiz\\csharpquiz.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\csharpquiz\\csharpquiz.csproj": {
+    "C:\\Tools\\repos\\csharpquiz\\csharpquiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
+        "projectUniqueName": "C:\\Tools\\repos\\csharpquiz\\csharpquiz.csproj",
         "projectName": "csharpquiz",
-        "projectPath": "D:\\Repos\\csharpquiz\\csharpquiz.csproj",
-        "packagesPath": "C:\\Users\\Ross\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\csharpquiz\\obj\\",
+        "projectPath": "C:\\Tools\\repos\\csharpquiz\\csharpquiz.csproj",
+        "packagesPath": "C:\\Users\\A170420\\.nuget\\packages\\",
+        "outputPath": "C:\\Tools\\repos\\csharpquiz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A170420\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
