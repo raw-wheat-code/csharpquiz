@@ -545,8 +545,8 @@
     },
     {
       "question": "Which of the following is NOT a valid return type for a C# method?",
-      "answers": ["int", "void", "double[]", "string"],
-      "correct": "double[]",
+      "answers": ["int", "void", "double<>", "string"],
+      "correct": "double<>",
       "group": "4"
     },
     {
