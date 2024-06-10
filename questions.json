@@ -24,49 +24,89 @@
     },
     {
       "question": "Which command is used to initialize a Git repository in a directory?",
-      "answers": ["git clone", "git init", "git add", "git commit"],
+      "answers": [
+        "git clone",
+        "git init",
+        "git add",
+        "git commit"
+      ],
       "correct": "git init",
       "group": "2"
     },
     {
       "question": "What command is used to stage changes for a commit in Git?",
-      "answers": ["git stage", "git add", "git commit", "git push"],
+      "answers": [
+        "git stage",
+        "git add",
+        "git commit",
+        "git push"
+      ],
       "correct": "git add",
       "group": "2"
     },
     {
       "question": "Which command is used to view the status of your changes in Git?",
-      "answers": ["git status", "git diff", "git log", "git branch"],
+      "answers": [
+        "git status",
+        "git diff",
+        "git log",
+        "git branch"
+      ],
       "correct": "git status",
       "group": "2"
     },
     {
       "question": "What command is used to create a new branch in Git?",
-      "answers": ["git branch", "git commit", "git checkout", "git merge"],
+      "answers": [
+        "git branch",
+        "git commit",
+        "git checkout",
+        "git merge"
+      ],
       "correct": "git branch",
       "group": "2"
     },
     {
       "question": "Which command is used to merge branches in Git?",
-      "answers": ["git branch", "git commit", "git checkout", "git merge"],
+      "answers": [
+        "git branch",
+        "git commit",
+        "git checkout",
+        "git merge"
+      ],
       "correct": "git merge",
       "group": "2"
     },
     {
       "question": "What command is used to revert changes to a specific commit in Git?",
-      "answers": ["git reset", "git revert", "git checkout", "git cherry-pick"],
+      "answers": [
+        "git reset",
+        "git revert",
+        "git checkout",
+        "git cherry-pick"
+      ],
       "correct": "git revert",
       "group": "2"
     },
     {
       "question": "Which command is used to push changes from a local repository to a remote repository in Git?",
-      "answers": ["git push", "git pull", "git clone", "git fetch"],
+      "answers": [
+        "git push",
+        "git pull",
+        "git clone",
+        "git fetch"
+      ],
       "correct": "git push",
       "group": "2"
     },
     {
       "question": "What command is used to clone a remote repository to your local machine in Git?",
-      "answers": ["git push", "git pull", "git clone", "git fetch"],
+      "answers": [
+        "git push",
+        "git pull",
+        "git clone",
+        "git fetch"
+      ],
       "correct": "git clone",
       "group": "2"
     },
@@ -105,7 +145,12 @@
     },
     {
       "question": "Which command is used to create and switch to a new branch in Git?",
-      "answers": ["git branch", "git checkout", "git merge", "git branch -b"],
+      "answers": [
+        "git branch",
+        "git checkout",
+        "git merge",
+        "git branch -b"
+      ],
       "correct": "git checkout",
       "group": "2"
     },
@@ -144,7 +189,12 @@
     },
     {
       "question": "Which Git command is used to show the commit history for a specific branch?",
-      "answers": ["git history", "git log", "git show", "git branch"],
+      "answers": [
+        "git history",
+        "git log",
+        "git show",
+        "git branch"
+      ],
       "correct": "git log",
       "group": "2"
     },
@@ -161,13 +211,23 @@
     },
     {
       "question": "Which Git command is used to rename a file?",
-      "answers": ["git rename", "git mv", "git move", "git change"],
+      "answers": [
+        "git rename",
+        "git mv",
+        "git move",
+        "git change"
+      ],
       "correct": "git mv",
       "group": "2"
     },
     {
       "question": "Which of the following is NOT a .NET programming language?",
-      "answers": ["C#", "C++", "F#", "VB.NET"],
+      "answers": [
+        "C#",
+        "C++",
+        "F#",
+        "VB.NET"
+      ],
       "correct": "Java",
       "group": "3"
     },
@@ -184,7 +244,12 @@
     },
     {
       "question": "Which .NET framework component provides a set of classes and functions for building web applications?",
-      "answers": ["ASP.NET", "WPF", "WinForms", "ADO.NET"],
+      "answers": [
+        "ASP.NET",
+        "WPF",
+        "WinForms",
+        "ADO.NET"
+      ],
       "correct": "ASP.NET",
       "group": "3"
     },
@@ -201,13 +266,23 @@
     },
     {
       "question": "Which .NET framework component is used for data access and manipulation?",
-      "answers": ["ADO.NET", "ASP.NET", "Entity Framework", "WCF"],
+      "answers": [
+        "ADO.NET",
+        "ASP.NET",
+        "Entity Framework",
+        "WCF"
+      ],
       "correct": "ADO.NET",
       "group": "3"
     },
     {
       "question": "What is the file extension used for compiled .NET assemblies?",
-      "answers": [".dll", ".exe", ".lib", ".obj"],
+      "answers": [
+        ".dll",
+        ".exe",
+        ".lib",
+        ".obj"
+      ],
       "correct": ".dll",
       "group": "3"
     },
@@ -356,25 +431,45 @@
     },
     {
       "question": "Which command is used to display help information for the .NET CLI commands?",
-      "answers": ["dotnet --help", "dotnet help", "dotnet info", "dotnet man"],
+      "answers": [
+        "dotnet --help",
+        "dotnet help",
+        "dotnet info",
+        "dotnet man"
+      ],
       "correct": "dotnet help",
       "group": "3"
     },
     {
       "question": "Which of the following is NOT a primitive data type in C#?",
-      "answers": ["int", "string", "float", "boolean"],
+      "answers": [
+        "int",
+        "string",
+        "float",
+        "boolean"
+      ],
       "correct": "string",
       "group": "4"
     },
     {
       "question": "What symbol is used to start a single-line comment in C#?",
-      "answers": ["//", "/*", "#", "--"],
+      "answers": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
       "correct": "//",
       "group": "4"
     },
     {
       "question": "Which keyword is used to define a constant in C#?",
-      "answers": ["const", "var", "static", "final"],
+      "answers": [
+        "const",
+        "var",
+        "static",
+        "final"
+      ],
       "correct": "const",
       "group": "4"
     },
@@ -391,13 +486,24 @@
     },
     {
       "question": "Which operator is used for exponentiation in C#?",
-      "answers": ["^", "**", "*", "^=", "^^"],
+      "answers": [
+        "^",
+        "**",
+        "*",
+        "^=",
+        "^^"
+      ],
       "correct": "**",
       "group": "4"
     },
     {
       "question": "What is the result of the expression '5 / 2' in C#?",
-      "answers": ["2.5", "2", "2.0", "2.25"],
+      "answers": [
+        "2.5",
+        "2",
+        "2.0",
+        "2.25"
+      ],
       "correct": "2",
       "group": "4"
     },
@@ -414,19 +520,34 @@
     },
     {
       "question": "What is the result of the expression 'true && false' in C#?",
-      "answers": ["true", "false", "null", "error"],
+      "answers": [
+        "true",
+        "false",
+        "null",
+        "error"
+      ],
       "correct": "false",
       "group": "4"
     },
     {
       "question": "Which loop structure is used to iterate over a collection of items in C#?",
-      "answers": ["foreach", "for", "while", "do-while"],
+      "answers": [
+        "foreach",
+        "for",
+        "while",
+        "do-while"
+      ],
       "correct": "foreach",
       "group": "4"
     },
     {
       "question": "What is the default access modifier for class members in C#?",
-      "answers": ["private", "public", "protected", "internal"],
+      "answers": [
+        "private",
+        "public",
+        "protected",
+        "internal"
+      ],
       "correct": "private",
       "group": "4"
     },
@@ -443,19 +564,34 @@
     },
     {
       "question": "What is the output of 'Console.WriteLine(5 == 5);' in C#?",
-      "answers": ["True", "False", "Error", "Null"],
+      "answers": [
+        "True",
+        "False",
+        "Error",
+        "Null"
+      ],
       "correct": "True",
       "group": "4"
     },
     {
       "question": "Which of the following is used to define inheritance in C#?",
-      "answers": [":", "::", ".", "->"],
+      "answers": [
+        ":",
+        "::",
+        ".",
+        "->"
+      ],
       "correct": ":",
       "group": "4"
     },
     {
       "question": "Which keyword is used to exit from a loop prematurely in C#?",
-      "answers": ["break", "continue", "return", "exit"],
+      "answers": [
+        "break",
+        "continue",
+        "return",
+        "exit"
+      ],
       "correct": "break",
       "group": "4"
     },
@@ -472,7 +608,12 @@
     },
     {
       "question": "Which keyword is used to prevent a class from being inherited in C#?",
-      "answers": ["sealed", "final", "static", "private"],
+      "answers": [
+        "sealed",
+        "final",
+        "static",
+        "private"
+      ],
       "correct": "sealed",
       "group": "4"
     },
@@ -511,7 +652,12 @@
     },
     {
       "question": "Which of the following is NOT a valid C# access modifier?",
-      "answers": ["friendly", "private", "protected", "public"],
+      "answers": [
+        "friendly",
+        "private",
+        "protected",
+        "public"
+      ],
       "correct": "friendly",
       "group": "4"
     },
@@ -528,7 +674,12 @@
     },
     {
       "question": "Which keyword is used to define a method in C#?",
-      "answers": ["method", "func", "procedure", "void"],
+      "answers": [
+        "method",
+        "func",
+        "procedure",
+        "void"
+      ],
       "correct": "void",
       "group": "4"
     },
@@ -545,7 +696,12 @@
     },
     {
       "question": "Which of the following is NOT a valid return type for a C# method?",
-      "answers": ["int", "void", "double<>", "string"],
+      "answers": [
+        "int",
+        "void",
+        "double<>",
+        "string"
+      ],
       "correct": "double<>",
       "group": "4"
     },
@@ -573,7 +729,12 @@
     },
     {
       "question": "Which of the following is an example of a value type in C#?",
-      "answers": ["int", "string", "object", "List<int>"],
+      "answers": [
+        "int",
+        "string",
+        "object",
+        "List<int>"
+      ],
       "correct": "int",
       "group": "4"
     },
@@ -590,13 +751,23 @@
     },
     {
       "question": "Which of the following is NOT a reference type in C#?",
-      "answers": ["string", "object", "int[]", "List<int>"],
+      "answers": [
+        "string",
+        "object",
+        "int[]",
+        "List<int>"
+      ],
       "correct": "int[]",
       "group": "4"
     },
     {
       "question": "What is the default value for a reference type variable in C#?",
-      "answers": ["null", "0", "false", "undefined"],
+      "answers": [
+        "null",
+        "0",
+        "false",
+        "undefined"
+      ],
       "correct": "null",
       "group": "4"
     },
@@ -613,7 +784,12 @@
     },
     {
       "question": "Which type of variable is stored on the stack in C#?",
-      "answers": ["Value type", "Reference type", "Both", "Neither"],
+      "answers": [
+        "Value type",
+        "Reference type",
+        "Both",
+        "Neither"
+      ],
       "correct": "Value type",
       "group": "4"
     },
@@ -630,7 +806,12 @@
     },
     {
       "question": "Which type of type is nullable in C#?",
-      "answers": ["Value type", "Reference type", "Both", "Neither"],
+      "answers": [
+        "Value type",
+        "Reference type",
+        "Both",
+        "Neither"
+      ],
       "correct": "Value type",
       "group": "4"
     },
@@ -658,19 +839,34 @@
     },
     {
       "question": "What method is used to concatenate strings in C#?",
-      "answers": ["Concat", "Join", "Merge", "Append"],
+      "answers": [
+        "Concat",
+        "Join",
+        "Merge",
+        "Append"
+      ],
       "correct": "Concat",
       "group": "5"
     },
     {
       "question": "What is the result of the expression 'string.IsNullOrEmpty(null)' in C#?",
-      "answers": ["True", "False", "Error", "Null"],
+      "answers": [
+        "True",
+        "False",
+        "Error",
+        "Null"
+      ],
       "correct": "True",
       "group": "5"
     },
     {
       "question": "Which of the following methods is used to convert a string to uppercase in C#?",
-      "answers": ["ToUpper", "ToLower", "Reverse", "Format"],
+      "answers": [
+        "ToUpper",
+        "ToLower",
+        "Reverse",
+        "Format"
+      ],
       "correct": "ToUpper",
       "group": "5"
     },
@@ -720,7 +916,12 @@
     },
     {
       "question": "What is the result of the expression 'Array.IndexOf(arr, 5)' in C# if 'arr' contains [1, 2, 3, 4]?",
-      "answers": ["-1", "0", "4", "Error"],
+      "answers": [
+        "-1",
+        "0",
+        "4",
+        "Error"
+      ],
       "correct": "-1",
       "group": "5"
     },
@@ -737,7 +938,12 @@
     },
     {
       "question": "Which keyword is used to define a method in C#?",
-      "answers": ["method", "func", "procedure", "void"],
+      "answers": [
+        "method",
+        "func",
+        "procedure",
+        "void"
+      ],
       "correct": "void",
       "group": "5"
     },
@@ -754,7 +960,12 @@
     },
     {
       "question": "Which of the following is NOT a valid return type for a C# method?",
-      "answers": ["int", "void", "double[]", "string"],
+      "answers": [
+        "int",
+        "void",
+        "double[]",
+        "string"
+      ],
       "correct": "double[]",
       "group": "5"
     },
@@ -804,7 +1015,12 @@
     },
     {
       "question": "Which keyword is used to throw an exception manually in C#?",
-      "answers": ["throw", "catch", "try", "finally"],
+      "answers": [
+        "throw",
+        "catch",
+        "try",
+        "finally"
+      ],
       "correct": "throw",
       "group": "5"
     },
@@ -887,7 +1103,12 @@
     },
     {
       "question": "Which of the following is NOT a standard exception handling block in C#?",
-      "answers": ["try", "catch", "finally", "else"],
+      "answers": [
+        "try",
+        "catch",
+        "finally",
+        "else"
+      ],
       "correct": "else",
       "group": "5"
     },
@@ -992,7 +1213,12 @@
     },
     {
       "question": "Which of the following is not a principle of object-oriented programming (OOP)?",
-      "answers": ["Efficiency", "Encapsulation", "Inheritance", "Polymorphism"],
+      "answers": [
+        "Efficiency",
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism"
+      ],
       "correct": "Efficiency",
       "group": "6"
     },
@@ -1108,7 +1334,12 @@
     },
     {
       "question": "Which data structure in C# allows for storing a collection of elements where each element is accessed by an index?",
-      "answers": ["List", "Dictionary", "Array", "Set"],
+      "answers": [
+        "List",
+        "Dictionary",
+        "Array",
+        "Set"
+      ],
       "correct": "List",
       "group": "7"
     },
@@ -1125,7 +1356,12 @@
     },
     {
       "question": "What method is used to add an element to the end of a list in C#?",
-      "answers": [".Add()", ".Insert()", ".Append()", ".Push()"],
+      "answers": [
+        ".Add()",
+        ".Insert()",
+        ".Append()",
+        ".Push()"
+      ],
       "correct": ".Add()",
       "group": "7"
     },
@@ -1142,7 +1378,12 @@
     },
     {
       "question": "What method is used to add a key-value pair to a dictionary in C#?",
-      "answers": [".Add()", ".Insert()", ".Append()", ".Put()"],
+      "answers": [
+        ".Add()",
+        ".Insert()",
+        ".Append()",
+        ".Put()"
+      ],
       "correct": ".Add()",
       "group": "7"
     },
@@ -1159,49 +1400,89 @@
     },
     {
       "question": "Which of the following methods removes the element at a specific index from a list in C#?",
-      "answers": [".RemoveAt()", ".Remove()", ".Delete()", ".Pop()"],
+      "answers": [
+        ".RemoveAt()",
+        ".Remove()",
+        ".Delete()",
+        ".Pop()"
+      ],
       "correct": ".RemoveAt()",
       "group": "7"
     },
     {
       "question": "In C#, lists and dictionaries are examples of which programming concept?",
-      "answers": ["Collections", "Loops", "Conditions", "Methods"],
+      "answers": [
+        "Collections",
+        "Loops",
+        "Conditions",
+        "Methods"
+      ],
       "correct": "Collections",
       "group": "7"
     },
     {
       "question": "What method is used to check if a key exists in a dictionary in C#?",
-      "answers": [".ContainsKey()", ".HasKey()", ".Exists()", ".CheckKey()"],
+      "answers": [
+        ".ContainsKey()",
+        ".HasKey()",
+        ".Exists()",
+        ".CheckKey()"
+      ],
       "correct": ".ContainsKey()",
       "group": "7"
     },
     {
       "question": "Which access modifier allows a member to be accessed from any other class in the same assembly or from a derived class in another assembly?",
-      "answers": ["public", "private", "protected", "internal"],
+      "answers": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
       "correct": "protected",
       "group": "7"
     },
     {
       "question": "Which access modifier restricts access to members only within the same class?",
-      "answers": ["public", "private", "protected", "internal"],
+      "answers": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
       "correct": "private",
       "group": "7"
     },
     {
       "question": "Which access modifier allows access only within the same assembly?",
-      "answers": ["public", "private", "protected", "internal"],
+      "answers": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
       "correct": "internal",
       "group": "7"
     },
     {
       "question": "Which access modifier provides the broadest access within the program, allowing access from any code in the program?",
-      "answers": ["public", "private", "protected", "internal"],
+      "answers": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
       "correct": "public",
       "group": "7"
     },
     {
       "question": "Which access modifier is used to specify that a member cannot be accessed from outside the containing class or from derived classes?",
-      "answers": ["public", "private", "protected", "internal"],
+      "answers": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
       "correct": "private",
       "group": "7"
     },
@@ -1218,37 +1499,63 @@
     },
     {
       "question": "In C#, a class is a blueprint for creating what?",
-      "answers": ["Objects", "Methods", "Variables", "Namespaces"],
+      "answers": [
+        "Objects",
+        "Methods",
+        "Variables",
+        "Namespaces"
+      ],
       "correct": "Objects",
       "group": "7"
     },
     {
       "question": "Which keyword is used to define a class in C#?",
-      "answers": ["class", "interface", "struct", "enum"],
+      "answers": [
+        "class",
+        "interface",
+        "struct",
+        "enum"
+      ],
       "correct": "class",
       "group": "7"
     },
     {
       "question": "What is the default access modifier for a class in C# if not specified?",
-      "answers": ["private", "public", "internal", "protected"],
+      "answers": [
+        "private",
+        "public",
+        "internal",
+        "protected"
+      ],
       "correct": "internal",
       "group": "7"
     },
     {
       "question": "In C#, can a class inherit from multiple base classes?",
-      "answers": ["Yes", "No"],
+      "answers": [
+        "Yes",
+        "No"
+      ],
       "correct": "No",
       "group": "7"
     },
     {
       "question": "Which keyword is used to allow one class to inherit from another class in C#?",
-      "answers": ["extends", "implements", "inherits", "derives"],
+      "answers": [
+        "extends",
+        "implements",
+        "inherits",
+        "derives"
+      ],
       "correct": "inherits",
       "group": "7"
     },
     {
       "question": "In C#, can a class be declared as both abstract and sealed?",
-      "answers": ["Yes", "No"],
+      "answers": [
+        "Yes",
+        "No"
+      ],
       "correct": "No",
       "group": "7"
     },
@@ -1265,7 +1572,10 @@
     },
     {
       "question": "In C#, can a class have both static and instance members?",
-      "answers": ["Yes", "No"],
+      "answers": [
+        "Yes",
+        "No"
+      ],
       "correct": "Yes",
       "group": "7"
     },
@@ -1348,7 +1658,12 @@
     },
     {
       "question": "What command is used to clone a repository?",
-      "answers": ["git branch", "git checkout", "git clone", "git add"],
+      "answers": [
+        "git branch",
+        "git checkout",
+        "git clone",
+        "git add"
+      ],
       "correct": "git clone",
       "group": "8"
     },
@@ -1376,13 +1691,23 @@
     },
     {
       "question": "What command pushes committed changes to the remote repository?",
-      "answers": ["git commit", "git pull", "git add", "git push"],
+      "answers": [
+        "git commit",
+        "git pull",
+        "git add",
+        "git push"
+      ],
       "correct": "git push",
       "group": "8"
     },
     {
       "question": "What command fetches and merges changes from the remote repository?",
-      "answers": ["git commit", "git pull", "git add", "git push"],
+      "answers": [
+        "git commit",
+        "git pull",
+        "git add",
+        "git push"
+      ],
       "correct": "git pull",
       "group": "8"
     },
@@ -1399,13 +1724,23 @@
     },
     {
       "question": "What command stages changes for the next commit?",
-      "answers": ["git add", "git commit", "git push", "git pull"],
+      "answers": [
+        "git add",
+        "git commit",
+        "git push",
+        "git pull"
+      ],
       "correct": "git add",
       "group": "8"
     },
     {
       "question": "What command commits the staged changes with a descriptive message?",
-      "answers": ["git add", "git commit -m", "git push", "git pull"],
+      "answers": [
+        "git add",
+        "git commit -m",
+        "git push",
+        "git pull"
+      ],
       "correct": "git commit -m",
       "group": "8"
     },
@@ -1651,556 +1986,1347 @@
       "correct": "NULLs are excluded unless handled with IS NULL or COALESCE.",
       "group": "8"
     },
-      {
-        "question": "What is ADO.NET?",
-        "answers": [
-          "A data access technology from the .NET Framework.",
-          "A web development framework.",
-          "A machine learning library.",
-          "An operating system."
-        ],
-        "correct": "A data access technology from the .NET Framework.",
-        "group": "8"
-      },
-      {
-        "question": "What does ADO.NET allow us to do in our projects?",
-        "answers": [
-          "Build user interfaces.",
-          "Interact with databases and manage database connections.",
-          "Write and run web applications.",
-          "Create virtual reality environments."
-        ],
-        "correct": "Interact with databases and manage database connections.",
-        "group": "8"
-      },
-      {
-        "question": "What is a connection string in ADO.NET?",
-        "answers": [
-          "A string that connects to the internet.",
-          "A string that contains user credentials.",
-          "A string that contains information required to connect to a database.",
-          "A string that contains SQL queries."
-        ],
-        "correct": "A string that contains information required to connect to a database.",
-        "group": "8"
-      },
-      {
-        "question": "What is the behavior of the DataReader in ADO.NET?",
-        "answers": [
-          "Read/write, forward and backward.",
-          "Read only, forward only.",
-          "Read/write, random access.",
-          "Write only, forward only."
-        ],
-        "correct": "Read only, forward only.",
-        "group": "8"
-      },
-      {
-        "question": "What is the purpose of the DataReader in ADO.NET?",
-        "answers": [
-          "To modify data in a database.",
-          "To execute SQL queries.",
-          "To provide a way to read a forward-only stream of data from a database.",
-          "To manage database connections."
-        ],
-        "correct": "To provide a way to read a forward-only stream of data from a database.",
-        "group": "8"
-      },
-      {
-        "question": "What does the DataAdapter in ADO.NET do?",
-        "answers": [
-          "Executes commands against the database.",
-          "Provides a way to read a forward-only stream of data from a database.",
-          "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
-          "Manages transactions in ADO.NET."
-        ],
-        "correct": "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
-        "group": "8"
-      },
-      {
-        "question": "What is the purpose of the DataSet in ADO.NET?",
-        "answers": [
-          "To execute SQL commands against a database.",
-          "To provide a connected view of data from a database.",
-          "To represent a collection of tables that can be used to store and manipulate data.",
-          "To manage database connections."
-        ],
-        "correct": "To represent a collection of tables that can be used to store and manipulate data.",
-        "group": "8"
-      },
-        {
-          "question": "What is the purpose of the finally in a try-catch-finally block in C# exception handling?",
-          "answers": [
-            "To execute code only if no exception occurs.",
-            "To execute code even if an exception occurs.",
-            "To catch all exceptions and prevent them from crashing the program.",
-            "To throw exceptions intentionally."
-          ],
-          "correct": "To execute code even if an exception occurs.",
-          "group": "8"
-        },
-        {
-          "question": "What is the difference between public, private, and internal access modifiers in C#?",
-          "answers": [
-            "Public: Accessible only within the same class. Private: Accessible from anywhere. Internal: Accessible only within the same assembly.",
-            "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
-            "Public: Accessible only within the same assembly. Private: Accessible only within the same class. Internal: Accessible from anywhere.",
-            "Public: Accessible only within the same class. Private: Accessible only within the same assembly. Internal: Accessible from anywhere."
-          ],
-          "correct": "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
-          "group": "8"
-        },
-        {
-          "question": "Which of the following are types of loops available in C#?",
-          "answers": [
-            "for, foreach, do-while",
-            "for, while, if",
-            "while, do-while, switch",
-            "for, foreach, switch"
-          ],
-          "correct": "for, foreach, do-while",
-          "group": "8"
-        },
-        {
-          "question": "What is the purpose of the switch statement in C#?",
-          "answers": [
-            "To execute code only if no exception occurs.",
-            "To execute code even if an exception occurs.",
-            "To handle multiple cases based on a value.",
-            "To catch all exceptions and prevent them from crashing the program."
-          ],
-          "correct": "To handle multiple cases based on a value.",
-          "group": "8"
-        },
-        {
-          "question": "What is the difference between == and != in C#?",
-          "answers": [
-            "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
-            "==: Checks if two operands are not equal. !=: Checks if two operands are equal.",
-            "==: Checks if one operand is greater than the other. !=: Checks if one operand is less than the other.",
-            "==: Checks if one operand is less than the other. !=: Checks if one operand is greater than the other."
-          ],
-          "correct": "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
-          "group": "8"
-        },
-        {
-          "question": "What is the difference between a for loop and a foreach loop in C#?",
-          "answers": [
-            "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
-            "Foreach loop is used when you need to iterate through a collection with an index, while for loop is used for iterating through a collection without needing the index.",
-            "For loop can only iterate forward, while foreach loop can iterate both forward and backward.",
-            "Foreach loop can only iterate forward, while for loop can iterate both forward and backward."
-          ],
-          "correct": "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
-          "group": "8"
-        },
-        {
-          "question": "What is an interface in C#?",
-          "answers": [
-            "A blueprint for a class.",
-            "A data structure.",
-            "A contract that defines a set of members that implementing classes must provide.",
-            "An abstract class."
-          ],
-          "correct": "A contract that defines a set of members that implementing classes must provide.",
-          "group": "8"
-        }
-        ,{
-          "question": "What is ASP.NET?",
-          "answers": [
-              "A web browser",
-              "An open source web framework created by Microsoft",
-              "A database management system",
-              "A programming language"
-          ],
-          "correct": "An open source web framework created by Microsoft",
-          "group": "9"
-      },
-      {
-          "question": "What is the primary use of ASP.NET in our context?",
-          "answers": [
-              "Creating web apps",
-              "Creating mobile apps",
-              "Creating web APIs",
-              "Creating desktop applications"
-          ],
-          "correct": "Creating web APIs",
-          "group": "9"
-      },
-      {
-          "question": "Which section of the URL 'https://www.example.co.uk/blog/article/search?docid=720&hl=en' represents the scheme?",
-          "answers": [
-              "https://",
-              "www.example.co.uk",
-              "/blog/article/search",
-              "docid=720&hl=en"
-          ],
-          "correct": "https://",
-          "group": "9"
-      },
-      {
-          "question": "What does the domain in a URL signify?",
-          "answers": [
-              "The type of protocol used",
-              "The site being accessed",
-              "The specific resource path",
-              "The search parameters"
-          ],
-          "correct": "The site being accessed",
-          "group": "9"
-      },
-      {
-          "question": "What is the purpose of the path in a URL?",
-          "answers": [
-              "To specify the protocol",
-              "To specify the site",
-              "To indicate where to send the HTTP request",
-              "To denote search parameters"
-          ],
-          "correct": "To indicate where to send the HTTP request",
-          "group": "9"
-      },
-      {
-          "question": "In a URL, what does the query string separator '?' do?",
-          "answers": [
-              "Indicates the protocol",
-              "Separates the domain from the path",
-              "Separates the path from the query parameters",
-              "Ends the URL"
-          ],
-          "correct": "Separates the path from the query parameters",
-          "group": "9"
-      },
-      {
-          "question": "What is model binding/JSON serialization in ASP.NET?",
-          "answers": [
-              "Converting JSON text and query parameters into objects",
-              "Registering dependencies",
-              "Handling HTTP requests",
-              "Creating a starting template"
-          ],
-          "correct": "Converting JSON text and query parameters into objects",
-          "group": "9"
-      },
-      {
-          "question": "How does ASP.NET handle dependency injection?",
-          "answers": [
-              "By converting JSON text to objects",
-              "By automatically registering all dependencies",
-              "As long as dependencies are registered inside the Program.cs",
-              "By creating a starting template"
-          ],
-          "correct": "As long as dependencies are registered inside the Program.cs",
-          "group": "9"
-      },
-      {
-          "question": "What does ASP.NET provide to help start a new program?",
-          "answers": [
-              "A built-in database",
-              "An automatic deployment tool",
-              "A starting template",
-              "A code editor"
-          ],
-          "correct": "A starting template",
-          "group": "9"
-      },
-      {
-          "question": "How does ASP.NET handle routing HTTP requests?",
-          "answers": [
-              "By sending them to a default page",
-              "By directing them to controller methods written in C#",
-              "By ignoring unknown requests",
-              "By logging them for review"
-          ],
-          "correct": "By directing them to controller methods written in C#",
-          "group": "9"
-      },
-      {
-          "question": "What is middleware?",
-          "answers": [
-              "A database management tool",
-              "A type of web server",
-              "A pipeline of different software that handles incoming requests",
-              "A C# library"
-          ],
-          "correct": "A pipeline of different software that handles incoming requests",
-          "group": "9"
-      },
-      {
-          "question": "How can middleware be included in an ASP.NET program?",
-          "answers": [
-              "By using the app object in Program.cs",
-              "By adding it to the web.config file",
-              "By installing it via NuGet",
-              "By writing it in JavaScript"
-          ],
-          "correct": "By using the app object in Program.cs",
-          "group": "9"
-      },
-      {
-          "question": "What kinds of return data can we get inside of an HTTP response besides JSON?",
-          "answers": [
-              "HTML and XML",
-              "Plain text and XML",
-              "CSV and XML",
-              "YAML and XML"
-          ],
-          "correct": "Plain text and XML",
-          "group": "9"
-      },
-      {
-          "question": "What does an HTTP method being idempotent mean?",
-          "answers": [
-              "The method cannot be used more than once",
-              "The method will always return the same response",
-              "The result of one request is the same as the result of many repeated requests",
-              "The method can only be used with JSON data"
-          ],
-          "correct": "The result of one request is the same as the result of many repeated requests",
-          "group": "9"
-      },
-      {
-          "question": "Which HTTP methods are idempotent?",
-          "answers": [
-              "GET, POST, PUT",
-              "PUT, DELETE, PATCH",
-              "GET, PUT, DELETE",
-              "POST, DELETE, PATCH"
-          ],
-          "correct": "GET, PUT, DELETE",
-          "group": "9"
-      },
-      {
-          "question": "Which HTTP methods are not idempotent?",
-          "answers": [
-              "POST and PATCH",
-              "GET and PUT",
-              "DELETE and PATCH",
-              "GET and DELETE"
-          ],
-          "correct": "POST and PATCH",
-          "group": "9"
-      },
-      {
-          "question": "What does it mean for an API to be 'stateless'?",
-          "answers": [
-              "It does not save records of previous HTTP requests",
-              "It saves the state of each request",
-              "It requires authentication for every request",
-              "It maintains a session for each user"
-          ],
-          "correct": "It does not save records of previous HTTP requests",
-          "group": "9"
-      },
-      {
-          "question": "What is the difference between PUT and PATCH methods?",
-          "answers": [
-              "PUT is idempotent, PATCH is not",
-              "PUT updates specific information, PATCH replaces the object",
-              "PUT replaces the entire object, PATCH updates specific information",
-              "PUT is used for creating, PATCH is used for deleting"
-          ],
-          "correct": "PUT replaces the entire object, PATCH updates specific information",
-          "group": "9"
-      },
-      {
-          "question": "What does URL stand for?",
-          "answers": [
-              "Uniform Resource Locator",
-              "Universal Resource Locator",
-              "Uniform Retrieval Locator",
-              "Universal Retrieval Locator"
-          ],
-          "correct": "Uniform Resource Locator",
-          "group": "9"
-      },
-      {
-          "question": "What is JSON?",
-          "answers": [
-              "A type of database",
-              "A programming language",
-              "A special text format used to represent objects",
-              "A web server"
-          ],
-          "correct": "A special text format used to represent objects",
-          "group": "9"
-      },
-      {
-          "question": "What does JSON stand for?",
-          "answers": [
-              "Java Standard Object Notation",
-              "JavaScript Object Notation",
-              "Java Serialization Object Notation",
-              "JavaScript Serialization Object Notation"
-          ],
-          "correct": "JavaScript Object Notation",
-          "group": "9"
-      },
-      {
-          "question": "What is a common use case for JSON?",
-          "answers": [
-              "Styling web pages",
-              "Representing objects in web development",
-              "Managing databases",
-              "Creating animations"
-          ],
-          "correct": "Representing objects in web development",
-          "group": "9"
-      },
-      {
-          "question": "Which of the following is an example of JSON?",
-          "answers": [
-              "{ 'name': 'John', 'age': 30 }",
-              "<name>John</name><age>30</age>",
-              "name=John&age=30",
-              "[name: John, age: 30]"
-          ],
-          "correct": "{ 'name': 'John', 'age': 30 }",
-          "group": "9"
-      },
-      {
-          "question": "What type of data format is plain text?",
-          "answers": [
-              "Structured",
-              "Unstructured",
-              "Binary",
-              "Hierarchical"
-          ],
-          "correct": "Unstructured",
-          "group": "9"
-      },
-      {
-          "question": "Why is plain text not commonly used for web development anymore?",
-          "answers": [
-              "It is not readable by browsers",
-              "It lacks structure and metadata",
-              "It is not supported by modern web servers",
-              "It is too large in size"
-          ],
-          "correct": "It lacks structure and metadata",
-          "group": "9"
-      },
-      {
-          "question": "Why was XML once a competitor to JSON?",
-          "answers": [
-              "It was simpler to use",
-              "It provided a way to structure data",
-              "It was faster to parse",
-              "It was more secure"
-          ],
-          "correct": "It provided a way to structure data",
-          "group": "9"
-      },
-      {
-          "question": "What character typically starts a JSON object?",
-          "answers": [
-              "{",
-              "[",
-              "<",
-              "("
-          ],
-          "correct": "{",
-          "group": "9"
-      },
-      {
-          "question": "In JSON, how are key-value pairs separated?",
-          "answers": [
-              "By a comma",
-              "By a colon",
-              "By a semicolon",
-              "By an equals sign"
-          ],
-          "correct": "By a colon",
-          "group": "9"
-      },
-      {
-          "question": "Which of the following best describes a 'stateless' API?",
-          "answers": [
-              "It does not store any client context between requests",
-              "It keeps track of user sessions",
-              "It stores user data on the server",
-              "It maintains a history of user requests"
-          ],
-          "correct": "It does not store any client context between requests",
-          "group": "9"
-      },
-      {
-          "question": "What does the DELETE HTTP method do?",
-          "answers": [
-              "It retrieves data from the server",
-              "It creates a new resource on the server",
-              "It updates an existing resource on the server",
-              "It removes a resource from the server"
-          ],
-          "correct": "It removes a resource from the server",
-          "group": "9"
-      },
-      {
-          "question": "What is the purpose of Program.cs in an ASP.NET project?",
-          "answers": [
-              "To handle HTTP requests",
-              "To define the main entry point of the application",
-              "To manage CSS styles",
-              "To store application data"
-          ],
-          "correct": "To define the main entry point of the application",
-          "group": "9"
-      },
-      {
-          "question": "What do the HTTP verb tags on our controller methods specify?",
-          "answers": [
-              "The type of HTTP request the method handles",
-              "The return type of the method",
-              "The database schema",
-              "The user's authentication status"
-          ],
-          "correct": "The type of HTTP request the method handles",
-          "group": "9"
-      },
-      {
-          "question": "What is the role of SwaggerUI in our ASP.NET application?",
-          "answers": [
-              "To manage database migrations",
-              "To handle authentication",
-              "To provide a user interface for testing the API",
-              "To log application errors"
-          ],
-          "correct": "To provide a user interface for testing the API",
-          "group": "9"
-      },
-      {
-          "question": "What does Entity Framework Core (EF Core) primarily handle in our application?",
-          "answers": [
-              "User authentication",
-              "Database access",
-              "Session management",
-              "Frontend rendering"
-          ],
-          "correct": "Database access",
-          "group": "9"
-      },
-      {
-          "question": "What are the 'dotnet ef' CLI commands used for?",
-          "answers": [
-              "Managing user authentication",
-              "Running unit tests",
-              "Performing database migrations and updates",
-              "Generating frontend code"
-          ],
-          "correct": "Performing database migrations and updates",
-          "group": "9"
-      },
-      {
-          "question": "Which file contains configuration settings for launching the ASP.NET application?",
-          "answers": [
-              "Program.cs",
-              "appsettings.json",
-              "launchSettings.json",
-              "Startup.cs"
-          ],
-          "correct": "launchSettings.json",
-          "group": "9"
-      }
-  
+    {
+      "question": "What is ADO.NET?",
+      "answers": [
+        "A data access technology from the .NET Framework.",
+        "A web development framework.",
+        "A machine learning library.",
+        "An operating system."
+      ],
+      "correct": "A data access technology from the .NET Framework.",
+      "group": "8"
+    },
+    {
+      "question": "What does ADO.NET allow us to do in our projects?",
+      "answers": [
+        "Build user interfaces.",
+        "Interact with databases and manage database connections.",
+        "Write and run web applications.",
+        "Create virtual reality environments."
+      ],
+      "correct": "Interact with databases and manage database connections.",
+      "group": "8"
+    },
+    {
+      "question": "What is a connection string in ADO.NET?",
+      "answers": [
+        "A string that connects to the internet.",
+        "A string that contains user credentials.",
+        "A string that contains information required to connect to a database.",
+        "A string that contains SQL queries."
+      ],
+      "correct": "A string that contains information required to connect to a database.",
+      "group": "8"
+    },
+    {
+      "question": "What is the behavior of the DataReader in ADO.NET?",
+      "answers": [
+        "Read/write, forward and backward.",
+        "Read only, forward only.",
+        "Read/write, random access.",
+        "Write only, forward only."
+      ],
+      "correct": "Read only, forward only.",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of the DataReader in ADO.NET?",
+      "answers": [
+        "To modify data in a database.",
+        "To execute SQL queries.",
+        "To provide a way to read a forward-only stream of data from a database.",
+        "To manage database connections."
+      ],
+      "correct": "To provide a way to read a forward-only stream of data from a database.",
+      "group": "8"
+    },
+    {
+      "question": "What does the DataAdapter in ADO.NET do?",
+      "answers": [
+        "Executes commands against the database.",
+        "Provides a way to read a forward-only stream of data from a database.",
+        "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
+        "Manages transactions in ADO.NET."
+      ],
+      "correct": "Acts as a bridge between a dataset and a database, enabling retrieval and manipulation of data.",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of the DataSet in ADO.NET?",
+      "answers": [
+        "To execute SQL commands against a database.",
+        "To provide a connected view of data from a database.",
+        "To represent a collection of tables that can be used to store and manipulate data.",
+        "To manage database connections."
+      ],
+      "correct": "To represent a collection of tables that can be used to store and manipulate data.",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of the finally in a try-catch-finally block in C# exception handling?",
+      "answers": [
+        "To execute code only if no exception occurs.",
+        "To execute code even if an exception occurs.",
+        "To catch all exceptions and prevent them from crashing the program.",
+        "To throw exceptions intentionally."
+      ],
+      "correct": "To execute code even if an exception occurs.",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between public, private, and internal access modifiers in C#?",
+      "answers": [
+        "Public: Accessible only within the same class. Private: Accessible from anywhere. Internal: Accessible only within the same assembly.",
+        "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
+        "Public: Accessible only within the same assembly. Private: Accessible only within the same class. Internal: Accessible from anywhere.",
+        "Public: Accessible only within the same class. Private: Accessible only within the same assembly. Internal: Accessible from anywhere."
+      ],
+      "correct": "Public: Accessible from anywhere. Private: Accessible only within the same class. Internal: Accessible only within the same assembly.",
+      "group": "8"
+    },
+    {
+      "question": "Which of the following are types of loops available in C#?",
+      "answers": [
+        "for, foreach, do-while",
+        "for, while, if",
+        "while, do-while, switch",
+        "for, foreach, switch"
+      ],
+      "correct": "for, foreach, do-while",
+      "group": "8"
+    },
+    {
+      "question": "What is the purpose of the switch statement in C#?",
+      "answers": [
+        "To execute code only if no exception occurs.",
+        "To execute code even if an exception occurs.",
+        "To handle multiple cases based on a value.",
+        "To catch all exceptions and prevent them from crashing the program."
+      ],
+      "correct": "To handle multiple cases based on a value.",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between == and != in C#?",
+      "answers": [
+        "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
+        "==: Checks if two operands are not equal. !=: Checks if two operands are equal.",
+        "==: Checks if one operand is greater than the other. !=: Checks if one operand is less than the other.",
+        "==: Checks if one operand is less than the other. !=: Checks if one operand is greater than the other."
+      ],
+      "correct": "==: Checks if two operands are equal. !=: Checks if two operands are not equal.",
+      "group": "8"
+    },
+    {
+      "question": "What is the difference between a for loop and a foreach loop in C#?",
+      "answers": [
+        "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
+        "Foreach loop is used when you need to iterate through a collection with an index, while for loop is used for iterating through a collection without needing the index.",
+        "For loop can only iterate forward, while foreach loop can iterate both forward and backward.",
+        "Foreach loop can only iterate forward, while for loop can iterate both forward and backward."
+      ],
+      "correct": "For loop is used when you need to iterate through a collection with an index, while foreach loop is used for iterating through a collection without needing the index.",
+      "group": "8"
+    },
+    {
+      "question": "What is an interface in C#?",
+      "answers": [
+        "A blueprint for a class.",
+        "A data structure.",
+        "A contract that defines a set of members that implementing classes must provide.",
+        "An abstract class."
+      ],
+      "correct": "A contract that defines a set of members that implementing classes must provide.",
+      "group": "8"
+    },
+    {
+      "question": "What is ASP.NET?",
+      "answers": [
+        "A web browser",
+        "An open source web framework created by Microsoft",
+        "A database management system",
+        "A programming language"
+      ],
+      "correct": "An open source web framework created by Microsoft",
+      "group": "9"
+    },
+    {
+      "question": "What is the primary use of ASP.NET in our context?",
+      "answers": [
+        "Creating web apps",
+        "Creating mobile apps",
+        "Creating web APIs",
+        "Creating desktop applications"
+      ],
+      "correct": "Creating web APIs",
+      "group": "9"
+    },
+    {
+      "question": "Which section of the URL 'https://www.example.co.uk/blog/article/search?docid=720&hl=en' represents the scheme?",
+      "answers": [
+        "https://",
+        "www.example.co.uk",
+        "/blog/article/search",
+        "docid=720&hl=en"
+      ],
+      "correct": "https://",
+      "group": "9"
+    },
+    {
+      "question": "What does the domain in a URL signify?",
+      "answers": [
+        "The type of protocol used",
+        "The site being accessed",
+        "The specific resource path",
+        "The search parameters"
+      ],
+      "correct": "The site being accessed",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of the path in a URL?",
+      "answers": [
+        "To specify the protocol",
+        "To specify the site",
+        "To indicate where to send the HTTP request",
+        "To denote search parameters"
+      ],
+      "correct": "To indicate where to send the HTTP request",
+      "group": "9"
+    },
+    {
+      "question": "In a URL, what does the query string separator '?' do?",
+      "answers": [
+        "Indicates the protocol",
+        "Separates the domain from the path",
+        "Separates the path from the query parameters",
+        "Ends the URL"
+      ],
+      "correct": "Separates the path from the query parameters",
+      "group": "9"
+    },
+    {
+      "question": "What is model binding/JSON serialization in ASP.NET?",
+      "answers": [
+        "Converting JSON text and query parameters into objects",
+        "Registering dependencies",
+        "Handling HTTP requests",
+        "Creating a starting template"
+      ],
+      "correct": "Converting JSON text and query parameters into objects",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle dependency injection?",
+      "answers": [
+        "By converting JSON text to objects",
+        "By automatically registering all dependencies",
+        "As long as dependencies are registered inside the Program.cs",
+        "By creating a starting template"
+      ],
+      "correct": "As long as dependencies are registered inside the Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What does ASP.NET provide to help start a new program?",
+      "answers": [
+        "A built-in database",
+        "An automatic deployment tool",
+        "A starting template",
+        "A code editor"
+      ],
+      "correct": "A starting template",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle routing HTTP requests?",
+      "answers": [
+        "By sending them to a default page",
+        "By directing them to controller methods written in C#",
+        "By ignoring unknown requests",
+        "By logging them for review"
+      ],
+      "correct": "By directing them to controller methods written in C#",
+      "group": "9"
+    },
+    {
+      "question": "What is middleware?",
+      "answers": [
+        "A database management tool",
+        "A type of web server",
+        "A pipeline of different software that handles incoming requests",
+        "A C# library"
+      ],
+      "correct": "A pipeline of different software that handles incoming requests",
+      "group": "9"
+    },
+    {
+      "question": "How can middleware be included in an ASP.NET program?",
+      "answers": [
+        "By using the app object in Program.cs",
+        "By adding it to the web.config file",
+        "By installing it via NuGet",
+        "By writing it in JavaScript"
+      ],
+      "correct": "By using the app object in Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What kinds of return data can we get inside of an HTTP response besides JSON?",
+      "answers": [
+        "HTML and XML",
+        "Plain text and XML",
+        "CSV and XML",
+        "YAML and XML"
+      ],
+      "correct": "Plain text and XML",
+      "group": "9"
+    },
+    {
+      "question": "What does an HTTP method being idempotent mean?",
+      "answers": [
+        "The method cannot be used more than once",
+        "The method will always return the same response",
+        "The result of one request is the same as the result of many repeated requests",
+        "The method can only be used with JSON data"
+      ],
+      "correct": "The result of one request is the same as the result of many repeated requests",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are idempotent?",
+      "answers": [
+        "GET, POST, PUT",
+        "PUT, DELETE, PATCH",
+        "GET, PUT, DELETE",
+        "POST, DELETE, PATCH"
+      ],
+      "correct": "GET, PUT, DELETE",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are not idempotent?",
+      "answers": [
+        "POST and PATCH",
+        "GET and PUT",
+        "DELETE and PATCH",
+        "GET and DELETE"
+      ],
+      "correct": "POST and PATCH",
+      "group": "9"
+    },
+    {
+      "question": "What does it mean for an API to be 'stateless'?",
+      "answers": [
+        "It does not save records of previous HTTP requests",
+        "It saves the state of each request",
+        "It requires authentication for every request",
+        "It maintains a session for each user"
+      ],
+      "correct": "It does not save records of previous HTTP requests",
+      "group": "9"
+    },
+    {
+      "question": "What is the difference between PUT and PATCH methods?",
+      "answers": [
+        "PUT is idempotent, PATCH is not",
+        "PUT updates specific information, PATCH replaces the object",
+        "PUT replaces the entire object, PATCH updates specific information",
+        "PUT is used for creating, PATCH is used for deleting"
+      ],
+      "correct": "PUT replaces the entire object, PATCH updates specific information",
+      "group": "9"
+    },
+    {
+      "question": "What does URL stand for?",
+      "answers": [
+        "Uniform Resource Locator",
+        "Universal Resource Locator",
+        "Uniform Retrieval Locator",
+        "Universal Retrieval Locator"
+      ],
+      "correct": "Uniform Resource Locator",
+      "group": "9"
+    },
+    {
+      "question": "What is JSON?",
+      "answers": [
+        "A type of database",
+        "A programming language",
+        "A special text format used to represent objects",
+        "A web server"
+      ],
+      "correct": "A special text format used to represent objects",
+      "group": "9"
+    },
+    {
+      "question": "What does JSON stand for?",
+      "answers": [
+        "Java Standard Object Notation",
+        "JavaScript Object Notation",
+        "Java Serialization Object Notation",
+        "JavaScript Serialization Object Notation"
+      ],
+      "correct": "JavaScript Object Notation",
+      "group": "9"
+    },
+    {
+      "question": "What is a common use case for JSON?",
+      "answers": [
+        "Styling web pages",
+        "Representing objects in web development",
+        "Managing databases",
+        "Creating animations"
+      ],
+      "correct": "Representing objects in web development",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following is an example of JSON?",
+      "answers": [
+        "{ 'name': 'John', 'age': 30 }",
+        "<name>John</name><age>30</age>",
+        "name=John&age=30",
+        "[name: John, age: 30]"
+      ],
+      "correct": "{ 'name': 'John', 'age': 30 }",
+      "group": "9"
+    },
+    {
+      "question": "What type of data format is plain text?",
+      "answers": [
+        "Structured",
+        "Unstructured",
+        "Binary",
+        "Hierarchical"
+      ],
+      "correct": "Unstructured",
+      "group": "9"
+    },
+    {
+      "question": "Why is plain text not commonly used for web development anymore?",
+      "answers": [
+        "It is not readable by browsers",
+        "It lacks structure and metadata",
+        "It is not supported by modern web servers",
+        "It is too large in size"
+      ],
+      "correct": "It lacks structure and metadata",
+      "group": "9"
+    },
+    {
+      "question": "Why was XML once a competitor to JSON?",
+      "answers": [
+        "It was simpler to use",
+        "It provided a way to structure data",
+        "It was faster to parse",
+        "It was more secure"
+      ],
+      "correct": "It provided a way to structure data",
+      "group": "9"
+    },
+    {
+      "question": "What character typically starts a JSON object?",
+      "answers": [
+        "{",
+        "[",
+        "<",
+        "("
+      ],
+      "correct": "{",
+      "group": "9"
+    },
+    {
+      "question": "In JSON, how are key-value pairs separated?",
+      "answers": [
+        "By a comma",
+        "By a colon",
+        "By a semicolon",
+        "By an equals sign"
+      ],
+      "correct": "By a colon",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following best describes a 'stateless' API?",
+      "answers": [
+        "It does not store any client context between requests",
+        "It keeps track of user sessions",
+        "It stores user data on the server",
+        "It maintains a history of user requests"
+      ],
+      "correct": "It does not store any client context between requests",
+      "group": "9"
+    },
+    {
+      "question": "What does the DELETE HTTP method do?",
+      "answers": [
+        "It retrieves data from the server",
+        "It creates a new resource on the server",
+        "It updates an existing resource on the server",
+        "It removes a resource from the server"
+      ],
+      "correct": "It removes a resource from the server",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of Program.cs in an ASP.NET project?",
+      "answers": [
+        "To handle HTTP requests",
+        "To define the main entry point of the application",
+        "To manage CSS styles",
+        "To store application data"
+      ],
+      "correct": "To define the main entry point of the application",
+      "group": "9"
+    },
+    {
+      "question": "What do the HTTP verb tags on our controller methods specify?",
+      "answers": [
+        "The type of HTTP request the method handles",
+        "The return type of the method",
+        "The database schema",
+        "The user's authentication status"
+      ],
+      "correct": "The type of HTTP request the method handles",
+      "group": "9"
+    },
+    {
+      "question": "What is the role of SwaggerUI in our ASP.NET application?",
+      "answers": [
+        "To manage database migrations",
+        "To handle authentication",
+        "To provide a user interface for testing the API",
+        "To log application errors"
+      ],
+      "correct": "To provide a user interface for testing the API",
+      "group": "9"
+    },
+    {
+      "question": "What does Entity Framework Core (EF Core) primarily handle in our application?",
+      "answers": [
+        "User authentication",
+        "Database access",
+        "Session management",
+        "Frontend rendering"
+      ],
+      "correct": "Database access",
+      "group": "9"
+    },
+    {
+      "question": "What are the 'dotnet ef' CLI commands used for?",
+      "answers": [
+        "Managing user authentication",
+        "Running unit tests",
+        "Performing database migrations and updates",
+        "Generating frontend code"
+      ],
+      "correct": "Performing database migrations and updates",
+      "group": "9"
+    },
+    {
+      "question": "Which file contains configuration settings for launching the ASP.NET application?",
+      "answers": [
+        "Program.cs",
+        "appsettings.json",
+        "launchSettings.json",
+        "Startup.cs"
+      ],
+      "correct": "launchSettings.json",
+      "group": "9"
+    },
+    {
+      "question": "What is ASP.NET?",
+      "answers": [
+        "A web browser",
+        "An open source web framework created by Microsoft",
+        "A database management system",
+        "A programming language"
+      ],
+      "correct": "An open source web framework created by Microsoft",
+      "group": "9"
+    },
+    {
+      "question": "What is the primary use of ASP.NET in our context?",
+      "answers": [
+        "Creating web apps",
+        "Creating mobile apps",
+        "Creating web APIs",
+        "Creating desktop applications"
+      ],
+      "correct": "Creating web APIs",
+      "group": "9"
+    },
+    {
+      "question": "Which section of the URL 'https://www.example.co.uk/blog/article/search?docid=720&hl=en' represents the scheme?",
+      "answers": [
+        "https://",
+        "www.example.co.uk",
+        "/blog/article/search",
+        "docid=720&hl=en"
+      ],
+      "correct": "https://",
+      "group": "9"
+    },
+    {
+      "question": "What does the domain in a URL signify?",
+      "answers": [
+        "The type of protocol used",
+        "The site being accessed",
+        "The specific resource path",
+        "The search parameters"
+      ],
+      "correct": "The site being accessed",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of the path in a URL?",
+      "answers": [
+        "To specify the protocol",
+        "To specify the site",
+        "To indicate where to send the HTTP request",
+        "To denote search parameters"
+      ],
+      "correct": "To indicate where to send the HTTP request",
+      "group": "9"
+    },
+    {
+      "question": "In a URL, what does the query string separator '?' do?",
+      "answers": [
+        "Indicates the protocol",
+        "Separates the domain from the path",
+        "Separates the path from the query parameters",
+        "Ends the URL"
+      ],
+      "correct": "Separates the path from the query parameters",
+      "group": "9"
+    },
+    {
+      "question": "What is model binding/JSON serialization in ASP.NET?",
+      "answers": [
+        "Converting JSON text and query parameters into objects",
+        "Registering dependencies",
+        "Handling HTTP requests",
+        "Creating a starting template"
+      ],
+      "correct": "Converting JSON text and query parameters into objects",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle dependency injection?",
+      "answers": [
+        "By converting JSON text to objects",
+        "By automatically registering all dependencies",
+        "As long as dependencies are registered inside the Program.cs",
+        "By creating a starting template"
+      ],
+      "correct": "As long as dependencies are registered inside the Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What does ASP.NET provide to help start a new program?",
+      "answers": [
+        "A built-in database",
+        "An automatic deployment tool",
+        "A starting template",
+        "A code editor"
+      ],
+      "correct": "A starting template",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle routing HTTP requests?",
+      "answers": [
+        "By sending them to a default page",
+        "By directing them to controller methods written in C#",
+        "By ignoring unknown requests",
+        "By logging them for review"
+      ],
+      "correct": "By directing them to controller methods written in C#",
+      "group": "9"
+    },
+    {
+      "question": "What is middleware?",
+      "answers": [
+        "A database management tool",
+        "A type of web server",
+        "A pipeline of different software that handles incoming requests",
+        "A C# library"
+      ],
+      "correct": "A pipeline of different software that handles incoming requests",
+      "group": "9"
+    },
+    {
+      "question": "How can middleware be included in an ASP.NET program?",
+      "answers": [
+        "By using the app object in Program.cs",
+        "By adding it to the web.config file",
+        "By installing it via NuGet",
+        "By writing it in JavaScript"
+      ],
+      "correct": "By using the app object in Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What kinds of return data can we get inside of an HTTP response besides JSON?",
+      "answers": [
+        "HTML and XML",
+        "Plain text and XML",
+        "CSV and XML",
+        "YAML and XML"
+      ],
+      "correct": "Plain text and XML",
+      "group": "9"
+    },
+    {
+      "question": "What does an HTTP method being idempotent mean?",
+      "answers": [
+        "The method cannot be used more than once",
+        "The method will always return the same response",
+        "The result of one request is the same as the result of many repeated requests",
+        "The method can only be used with JSON data"
+      ],
+      "correct": "The result of one request is the same as the result of many repeated requests",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are idempotent?",
+      "answers": [
+        "GET, POST, PUT",
+        "PUT, DELETE, PATCH",
+        "GET, PUT, DELETE",
+        "POST, DELETE, PATCH"
+      ],
+      "correct": "GET, PUT, DELETE",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are not idempotent?",
+      "answers": [
+        "POST and PATCH",
+        "GET and PUT",
+        "DELETE and PATCH",
+        "GET and DELETE"
+      ],
+      "correct": "POST and PATCH",
+      "group": "9"
+    },
+    {
+      "question": "What does it mean for an API to be 'stateless'?",
+      "answers": [
+        "It does not save records of previous HTTP requests",
+        "It saves the state of each request",
+        "It requires authentication for every request",
+        "It maintains a session for each user"
+      ],
+      "correct": "It does not save records of previous HTTP requests",
+      "group": "9"
+    },
+    {
+      "question": "What is the difference between PUT and PATCH methods?",
+      "answers": [
+        "PUT is idempotent, PATCH is not",
+        "PUT updates specific information, PATCH replaces the object",
+        "PUT replaces the entire object, PATCH updates specific information",
+        "PUT is used for creating, PATCH is used for deleting"
+      ],
+      "correct": "PUT replaces the entire object, PATCH updates specific information",
+      "group": "9"
+    },
+    {
+      "question": "What does URL stand for?",
+      "answers": [
+        "Uniform Resource Locator",
+        "Universal Resource Locator",
+        "Uniform Retrieval Locator",
+        "Universal Retrieval Locator"
+      ],
+      "correct": "Uniform Resource Locator",
+      "group": "9"
+    },
+    {
+      "question": "What is JSON?",
+      "answers": [
+        "A type of database",
+        "A programming language",
+        "A special text format used to represent objects",
+        "A web server"
+      ],
+      "correct": "A special text format used to represent objects",
+      "group": "9"
+    },
+    {
+      "question": "What does JSON stand for?",
+      "answers": [
+        "Java Standard Object Notation",
+        "JavaScript Object Notation",
+        "Java Serialization Object Notation",
+        "JavaScript Serialization Object Notation"
+      ],
+      "correct": "JavaScript Object Notation",
+      "group": "9"
+    },
+    {
+      "question": "What is a common use case for JSON?",
+      "answers": [
+        "Styling web pages",
+        "Representing objects in web development",
+        "Managing databases",
+        "Creating animations"
+      ],
+      "correct": "Representing objects in web development",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following is an example of JSON?",
+      "answers": [
+        "{ 'name': 'John', 'age': 30 }",
+        "<name>John</name><age>30</age>",
+        "name=John&age=30",
+        "[name: John, age: 30]"
+      ],
+      "correct": "{ 'name': 'John', 'age': 30 }",
+      "group": "9"
+    },
+    {
+      "question": "What type of data format is plain text?",
+      "answers": [
+        "Structured",
+        "Unstructured",
+        "Binary",
+        "Hierarchical"
+      ],
+      "correct": "Unstructured",
+      "group": "9"
+    },
+    {
+      "question": "Why is plain text not commonly used for web development anymore?",
+      "answers": [
+        "It is not readable by browsers",
+        "It lacks structure and metadata",
+        "It is not supported by modern web servers",
+        "It is too large in size"
+      ],
+      "correct": "It lacks structure and metadata",
+      "group": "9"
+    },
+    {
+      "question": "Why was XML once a competitor to JSON?",
+      "answers": [
+        "It was simpler to use",
+        "It provided a way to structure data",
+        "It was faster to parse",
+        "It was more secure"
+      ],
+      "correct": "It provided a way to structure data",
+      "group": "9"
+    },
+    {
+      "question": "What character typically starts a JSON object?",
+      "answers": [
+        "{",
+        "[",
+        "<",
+        "("
+      ],
+      "correct": "{",
+      "group": "9"
+    },
+    {
+      "question": "In JSON, how are key-value pairs separated?",
+      "answers": [
+        "By a comma",
+        "By a colon",
+        "By a semicolon",
+        "By an equals sign"
+      ],
+      "correct": "By a colon",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following best describes a 'stateless' API?",
+      "answers": [
+        "It does not store any client context between requests",
+        "It keeps track of user sessions",
+        "It stores user data on the server",
+        "It maintains a history of user requests"
+      ],
+      "correct": "It does not store any client context between requests",
+      "group": "9"
+    },
+    {
+      "question": "What does the DELETE HTTP method do?",
+      "answers": [
+        "It retrieves data from the server",
+        "It creates a new resource on the server",
+        "It updates an existing resource on the server",
+        "It removes a resource from the server"
+      ],
+      "correct": "It removes a resource from the server",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of Program.cs in an ASP.NET project?",
+      "answers": [
+        "To handle HTTP requests",
+        "To define the main entry point of the application",
+        "To manage CSS styles",
+        "To store application data"
+      ],
+      "correct": "To define the main entry point of the application",
+      "group": "9"
+    },
+    {
+      "question": "What do the HTTP verb tags on our controller methods specify?",
+      "answers": [
+        "The type of HTTP request the method handles",
+        "The return type of the method",
+        "The database schema",
+        "The user's authentication status"
+      ],
+      "correct": "The type of HTTP request the method handles",
+      "group": "9"
+    },
+    {
+      "question": "What is the role of SwaggerUI in our ASP.NET application?",
+      "answers": [
+        "To manage database migrations",
+        "To handle authentication",
+        "To provide a user interface for testing the API",
+        "To log application errors"
+      ],
+      "correct": "To provide a user interface for testing the API",
+      "group": "9"
+    },
+    {
+      "question": "What does Entity Framework Core (EF Core) primarily handle in our application?",
+      "answers": [
+        "User authentication",
+        "Database access",
+        "Session management",
+        "Frontend rendering"
+      ],
+      "correct": "Database access",
+      "group": "9"
+    },
+    {
+      "question": "What are the 'dotnet ef' CLI commands used for?",
+      "answers": [
+        "Managing user authentication",
+        "Running unit tests",
+        "Performing database migrations and updates",
+        "Generating frontend code"
+      ],
+      "correct": "Performing database migrations and updates",
+      "group": "9"
+    },
+    {
+      "question": "Which file contains configuration settings for launching the ASP.NET application?",
+      "answers": [
+        "Program.cs",
+        "appsettings.json",
+        "launchSettings.json",
+        "Startup.cs"
+      ],
+      "correct": "launchSettings.json",
+      "group": "9"
+    },
+    {
+      "question": "What is ASP.NET?",
+      "answers": [
+        "A web browser",
+        "An open source web framework created by Microsoft",
+        "A database management system",
+        "A programming language"
+      ],
+      "correct": "An open source web framework created by Microsoft",
+      "group": "9"
+    },
+    {
+      "question": "What is the primary use of ASP.NET in our context?",
+      "answers": [
+        "Creating web apps",
+        "Creating mobile apps",
+        "Creating web APIs",
+        "Creating desktop applications"
+      ],
+      "correct": "Creating web APIs",
+      "group": "9"
+    },
+    {
+      "question": "Which section of the URL 'https://www.example.co.uk/blog/article/search?docid=720&hl=en' represents the scheme?",
+      "answers": [
+        "https://",
+        "www.example.co.uk",
+        "/blog/article/search",
+        "docid=720&hl=en"
+      ],
+      "correct": "https://",
+      "group": "9"
+    },
+    {
+      "question": "What does the domain in a URL signify?",
+      "answers": [
+        "The type of protocol used",
+        "The site being accessed",
+        "The specific resource path",
+        "The search parameters"
+      ],
+      "correct": "The site being accessed",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of the path in a URL?",
+      "answers": [
+        "To specify the protocol",
+        "To specify the site",
+        "To indicate where to send the HTTP request",
+        "To denote search parameters"
+      ],
+      "correct": "To indicate where to send the HTTP request",
+      "group": "9"
+    },
+    {
+      "question": "In a URL, what does the query string separator '?' do?",
+      "answers": [
+        "Indicates the protocol",
+        "Separates the domain from the path",
+        "Separates the path from the query parameters",
+        "Ends the URL"
+      ],
+      "correct": "Separates the path from the query parameters",
+      "group": "9"
+    },
+    {
+      "question": "What is model binding/JSON serialization in ASP.NET?",
+      "answers": [
+        "Converting JSON text and query parameters into objects",
+        "Registering dependencies",
+        "Handling HTTP requests",
+        "Creating a starting template"
+      ],
+      "correct": "Converting JSON text and query parameters into objects",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle dependency injection?",
+      "answers": [
+        "By converting JSON text to objects",
+        "By automatically registering all dependencies",
+        "As long as dependencies are registered inside the Program.cs",
+        "By creating a starting template"
+      ],
+      "correct": "As long as dependencies are registered inside the Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What does ASP.NET provide to help start a new program?",
+      "answers": [
+        "A built-in database",
+        "An automatic deployment tool",
+        "A starting template",
+        "A code editor"
+      ],
+      "correct": "A starting template",
+      "group": "9"
+    },
+    {
+      "question": "How does ASP.NET handle routing HTTP requests?",
+      "answers": [
+        "By sending them to a default page",
+        "By directing them to controller methods written in C#",
+        "By ignoring unknown requests",
+        "By logging them for review"
+      ],
+      "correct": "By directing them to controller methods written in C#",
+      "group": "9"
+    },
+    {
+      "question": "What is middleware?",
+      "answers": [
+        "A database management tool",
+        "A type of web server",
+        "A pipeline of different software that handles incoming requests",
+        "A C# library"
+      ],
+      "correct": "A pipeline of different software that handles incoming requests",
+      "group": "9"
+    },
+    {
+      "question": "How can middleware be included in an ASP.NET program?",
+      "answers": [
+        "By using the app object in Program.cs",
+        "By adding it to the web.config file",
+        "By installing it via NuGet",
+        "By writing it in JavaScript"
+      ],
+      "correct": "By using the app object in Program.cs",
+      "group": "9"
+    },
+    {
+      "question": "What kinds of return data can we get inside of an HTTP response besides JSON?",
+      "answers": [
+        "HTML and XML",
+        "Plain text and XML",
+        "CSV and XML",
+        "YAML and XML"
+      ],
+      "correct": "Plain text and XML",
+      "group": "9"
+    },
+    {
+      "question": "What does an HTTP method being idempotent mean?",
+      "answers": [
+        "The method cannot be used more than once",
+        "The method will always return the same response",
+        "The result of one request is the same as the result of many repeated requests",
+        "The method can only be used with JSON data"
+      ],
+      "correct": "The result of one request is the same as the result of many repeated requests",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are idempotent?",
+      "answers": [
+        "GET, POST, PUT",
+        "PUT, DELETE, PATCH",
+        "GET, PUT, DELETE",
+        "POST, DELETE, PATCH"
+      ],
+      "correct": "GET, PUT, DELETE",
+      "group": "9"
+    },
+    {
+      "question": "Which HTTP methods are not idempotent?",
+      "answers": [
+        "POST and PATCH",
+        "GET and PUT",
+        "DELETE and PATCH",
+        "GET and DELETE"
+      ],
+      "correct": "POST and PATCH",
+      "group": "9"
+    },
+    {
+      "question": "What does it mean for an API to be 'stateless'?",
+      "answers": [
+        "It does not save records of previous HTTP requests",
+        "It saves the state of each request",
+        "It requires authentication for every request",
+        "It maintains a session for each user"
+      ],
+      "correct": "It does not save records of previous HTTP requests",
+      "group": "9"
+    },
+    {
+      "question": "What is the difference between PUT and PATCH methods?",
+      "answers": [
+        "PUT is idempotent, PATCH is not",
+        "PUT updates specific information, PATCH replaces the object",
+        "PUT replaces the entire object, PATCH updates specific information",
+        "PUT is used for creating, PATCH is used for deleting"
+      ],
+      "correct": "PUT replaces the entire object, PATCH updates specific information",
+      "group": "9"
+    },
+    {
+      "question": "What does URL stand for?",
+      "answers": [
+        "Uniform Resource Locator",
+        "Universal Resource Locator",
+        "Uniform Retrieval Locator",
+        "Universal Retrieval Locator"
+      ],
+      "correct": "Uniform Resource Locator",
+      "group": "9"
+    },
+    {
+      "question": "What is JSON?",
+      "answers": [
+        "A type of database",
+        "A programming language",
+        "A special text format used to represent objects",
+        "A web server"
+      ],
+      "correct": "A special text format used to represent objects",
+      "group": "9"
+    },
+    {
+      "question": "What does JSON stand for?",
+      "answers": [
+        "Java Standard Object Notation",
+        "JavaScript Object Notation",
+        "Java Serialization Object Notation",
+        "JavaScript Serialization Object Notation"
+      ],
+      "correct": "JavaScript Object Notation",
+      "group": "9"
+    },
+    {
+      "question": "What is a common use case for JSON?",
+      "answers": [
+        "Styling web pages",
+        "Representing objects in web development",
+        "Managing databases",
+        "Creating animations"
+      ],
+      "correct": "Representing objects in web development",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following is an example of JSON?",
+      "answers": [
+        "{ 'name': 'John', 'age': 30 }",
+        "<name>John</name><age>30</age>",
+        "name=John&age=30",
+        "[name: John, age: 30]"
+      ],
+      "correct": "{ 'name': 'John', 'age': 30 }",
+      "group": "9"
+    },
+    {
+      "question": "What type of data format is plain text?",
+      "answers": [
+        "Structured",
+        "Unstructured",
+        "Binary",
+        "Hierarchical"
+      ],
+      "correct": "Unstructured",
+      "group": "9"
+    },
+    {
+      "question": "Why is plain text not commonly used for web development anymore?",
+      "answers": [
+        "It is not readable by browsers",
+        "It lacks structure and metadata",
+        "It is not supported by modern web servers",
+        "It is too large in size"
+      ],
+      "correct": "It lacks structure and metadata",
+      "group": "9"
+    },
+    {
+      "question": "Why was XML once a competitor to JSON?",
+      "answers": [
+        "It was simpler to use",
+        "It provided a way to structure data",
+        "It was faster to parse",
+        "It was more secure"
+      ],
+      "correct": "It provided a way to structure data",
+      "group": "9"
+    },
+    {
+      "question": "What character typically starts a JSON object?",
+      "answers": [
+        "{",
+        "[",
+        "<",
+        "("
+      ],
+      "correct": "{",
+      "group": "9"
+    },
+    {
+      "question": "In JSON, how are key-value pairs separated?",
+      "answers": [
+        "By a comma",
+        "By a colon",
+        "By a semicolon",
+        "By an equals sign"
+      ],
+      "correct": "By a colon",
+      "group": "9"
+    },
+    {
+      "question": "Which of the following best describes a 'stateless' API?",
+      "answers": [
+        "It does not store any client context between requests",
+        "It keeps track of user sessions",
+        "It stores user data on the server",
+        "It maintains a history of user requests"
+      ],
+      "correct": "It does not store any client context between requests",
+      "group": "9"
+    },
+    {
+      "question": "What does the DELETE HTTP method do?",
+      "answers": [
+        "It retrieves data from the server",
+        "It creates a new resource on the server",
+        "It updates an existing resource on the server",
+        "It removes a resource from the server"
+      ],
+      "correct": "It removes a resource from the server",
+      "group": "9"
+    },
+    {
+      "question": "What is the purpose of Program.cs in an ASP.NET project?",
+      "answers": [
+        "To handle HTTP requests",
+        "To define the main entry point of the application",
+        "To manage CSS styles",
+        "To store application data"
+      ],
+      "correct": "To define the main entry point of the application",
+      "group": "9"
+    },
+    {
+      "question": "What do the HTTP verb tags on our controller methods specify?",
+      "answers": [
+        "The type of HTTP request the method handles",
+        "The return type of the method",
+        "The database schema",
+        "The user's authentication status"
+      ],
+      "correct": "The type of HTTP request the method handles",
+      "group": "9"
+    },
+    {
+      "question": "What is the role of SwaggerUI in our ASP.NET application?",
+      "answers": [
+        "To manage database migrations",
+        "To handle authentication",
+        "To provide a user interface for testing the API",
+        "To log application errors"
+      ],
+      "correct": "To provide a user interface for testing the API",
+      "group": "9"
+    },
+    {
+      "question": "What does Entity Framework Core (EF Core) primarily handle in our application?",
+      "answers": [
+        "User authentication",
+        "Database access",
+        "Session management",
+        "Frontend rendering"
+      ],
+      "correct": "Database access",
+      "group": "9"
+    },
+    {
+      "question": "What are the 'dotnet ef' CLI commands used for?",
+      "answers": [
+        "Managing user authentication",
+        "Running unit tests",
+        "Performing database migrations and updates",
+        "Generating frontend code"
+      ],
+      "correct": "Performing database migrations and updates",
+      "group": "9"
+    },
+    {
+      "question": "Which file contains configuration settings for launching the ASP.NET application?",
+      "answers": [
+        "Program.cs",
+        "appsettings.json",
+        "launchSettings.json",
+        "Startup.cs"
+      ],
+      "correct": "launchSettings.json",
+      "group": "9"
+    }
   ]
 }
