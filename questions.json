@@ -1805,5 +1805,402 @@
           "correct": "A contract that defines a set of members that implementing classes must provide.",
           "group": "8"
         }
+        ,{
+          "question": "What is ASP.NET?",
+          "answers": [
+              "A web browser",
+              "An open source web framework created by Microsoft",
+              "A database management system",
+              "A programming language"
+          ],
+          "correct": "An open source web framework created by Microsoft",
+          "group": "9"
+      },
+      {
+          "question": "What is the primary use of ASP.NET in our context?",
+          "answers": [
+              "Creating web apps",
+              "Creating mobile apps",
+              "Creating web APIs",
+              "Creating desktop applications"
+          ],
+          "correct": "Creating web APIs",
+          "group": "9"
+      },
+      {
+          "question": "Which section of the URL 'https://www.example.co.uk/blog/article/search?docid=720&hl=en' represents the scheme?",
+          "answers": [
+              "https://",
+              "www.example.co.uk",
+              "/blog/article/search",
+              "docid=720&hl=en"
+          ],
+          "correct": "https://",
+          "group": "9"
+      },
+      {
+          "question": "What does the domain in a URL signify?",
+          "answers": [
+              "The type of protocol used",
+              "The site being accessed",
+              "The specific resource path",
+              "The search parameters"
+          ],
+          "correct": "The site being accessed",
+          "group": "9"
+      },
+      {
+          "question": "What is the purpose of the path in a URL?",
+          "answers": [
+              "To specify the protocol",
+              "To specify the site",
+              "To indicate where to send the HTTP request",
+              "To denote search parameters"
+          ],
+          "correct": "To indicate where to send the HTTP request",
+          "group": "9"
+      },
+      {
+          "question": "In a URL, what does the query string separator '?' do?",
+          "answers": [
+              "Indicates the protocol",
+              "Separates the domain from the path",
+              "Separates the path from the query parameters",
+              "Ends the URL"
+          ],
+          "correct": "Separates the path from the query parameters",
+          "group": "9"
+      },
+      {
+          "question": "What is model binding/JSON serialization in ASP.NET?",
+          "answers": [
+              "Converting JSON text and query parameters into objects",
+              "Registering dependencies",
+              "Handling HTTP requests",
+              "Creating a starting template"
+          ],
+          "correct": "Converting JSON text and query parameters into objects",
+          "group": "9"
+      },
+      {
+          "question": "How does ASP.NET handle dependency injection?",
+          "answers": [
+              "By converting JSON text to objects",
+              "By automatically registering all dependencies",
+              "As long as dependencies are registered inside the Program.cs",
+              "By creating a starting template"
+          ],
+          "correct": "As long as dependencies are registered inside the Program.cs",
+          "group": "9"
+      },
+      {
+          "question": "What does ASP.NET provide to help start a new program?",
+          "answers": [
+              "A built-in database",
+              "An automatic deployment tool",
+              "A starting template",
+              "A code editor"
+          ],
+          "correct": "A starting template",
+          "group": "9"
+      },
+      {
+          "question": "How does ASP.NET handle routing HTTP requests?",
+          "answers": [
+              "By sending them to a default page",
+              "By directing them to controller methods written in C#",
+              "By ignoring unknown requests",
+              "By logging them for review"
+          ],
+          "correct": "By directing them to controller methods written in C#",
+          "group": "9"
+      },
+      {
+          "question": "What is middleware?",
+          "answers": [
+              "A database management tool",
+              "A type of web server",
+              "A pipeline of different software that handles incoming requests",
+              "A C# library"
+          ],
+          "correct": "A pipeline of different software that handles incoming requests",
+          "group": "9"
+      },
+      {
+          "question": "How can middleware be included in an ASP.NET program?",
+          "answers": [
+              "By using the app object in Program.cs",
+              "By adding it to the web.config file",
+              "By installing it via NuGet",
+              "By writing it in JavaScript"
+          ],
+          "correct": "By using the app object in Program.cs",
+          "group": "9"
+      },
+      {
+          "question": "What kinds of return data can we get inside of an HTTP response besides JSON?",
+          "answers": [
+              "HTML and XML",
+              "Plain text and XML",
+              "CSV and XML",
+              "YAML and XML"
+          ],
+          "correct": "Plain text and XML",
+          "group": "9"
+      },
+      {
+          "question": "What does an HTTP method being idempotent mean?",
+          "answers": [
+              "The method cannot be used more than once",
+              "The method will always return the same response",
+              "The result of one request is the same as the result of many repeated requests",
+              "The method can only be used with JSON data"
+          ],
+          "correct": "The result of one request is the same as the result of many repeated requests",
+          "group": "9"
+      },
+      {
+          "question": "Which HTTP methods are idempotent?",
+          "answers": [
+              "GET, POST, PUT",
+              "PUT, DELETE, PATCH",
+              "GET, PUT, DELETE",
+              "POST, DELETE, PATCH"
+          ],
+          "correct": "GET, PUT, DELETE",
+          "group": "9"
+      },
+      {
+          "question": "Which HTTP methods are not idempotent?",
+          "answers": [
+              "POST and PATCH",
+              "GET and PUT",
+              "DELETE and PATCH",
+              "GET and DELETE"
+          ],
+          "correct": "POST and PATCH",
+          "group": "9"
+      },
+      {
+          "question": "What does it mean for an API to be 'stateless'?",
+          "answers": [
+              "It does not save records of previous HTTP requests",
+              "It saves the state of each request",
+              "It requires authentication for every request",
+              "It maintains a session for each user"
+          ],
+          "correct": "It does not save records of previous HTTP requests",
+          "group": "9"
+      },
+      {
+          "question": "What is the difference between PUT and PATCH methods?",
+          "answers": [
+              "PUT is idempotent, PATCH is not",
+              "PUT updates specific information, PATCH replaces the object",
+              "PUT replaces the entire object, PATCH updates specific information",
+              "PUT is used for creating, PATCH is used for deleting"
+          ],
+          "correct": "PUT replaces the entire object, PATCH updates specific information",
+          "group": "9"
+      },
+      {
+          "question": "What does URL stand for?",
+          "answers": [
+              "Uniform Resource Locator",
+              "Universal Resource Locator",
+              "Uniform Retrieval Locator",
+              "Universal Retrieval Locator"
+          ],
+          "correct": "Uniform Resource Locator",
+          "group": "9"
+      },
+      {
+          "question": "What is JSON?",
+          "answers": [
+              "A type of database",
+              "A programming language",
+              "A special text format used to represent objects",
+              "A web server"
+          ],
+          "correct": "A special text format used to represent objects",
+          "group": "9"
+      },
+      {
+          "question": "What does JSON stand for?",
+          "answers": [
+              "Java Standard Object Notation",
+              "JavaScript Object Notation",
+              "Java Serialization Object Notation",
+              "JavaScript Serialization Object Notation"
+          ],
+          "correct": "JavaScript Object Notation",
+          "group": "9"
+      },
+      {
+          "question": "What is a common use case for JSON?",
+          "answers": [
+              "Styling web pages",
+              "Representing objects in web development",
+              "Managing databases",
+              "Creating animations"
+          ],
+          "correct": "Representing objects in web development",
+          "group": "9"
+      },
+      {
+          "question": "Which of the following is an example of JSON?",
+          "answers": [
+              "{ 'name': 'John', 'age': 30 }",
+              "<name>John</name><age>30</age>",
+              "name=John&age=30",
+              "[name: John, age: 30]"
+          ],
+          "correct": "{ 'name': 'John', 'age': 30 }",
+          "group": "9"
+      },
+      {
+          "question": "What type of data format is plain text?",
+          "answers": [
+              "Structured",
+              "Unstructured",
+              "Binary",
+              "Hierarchical"
+          ],
+          "correct": "Unstructured",
+          "group": "9"
+      },
+      {
+          "question": "Why is plain text not commonly used for web development anymore?",
+          "answers": [
+              "It is not readable by browsers",
+              "It lacks structure and metadata",
+              "It is not supported by modern web servers",
+              "It is too large in size"
+          ],
+          "correct": "It lacks structure and metadata",
+          "group": "9"
+      },
+      {
+          "question": "Why was XML once a competitor to JSON?",
+          "answers": [
+              "It was simpler to use",
+              "It provided a way to structure data",
+              "It was faster to parse",
+              "It was more secure"
+          ],
+          "correct": "It provided a way to structure data",
+          "group": "9"
+      },
+      {
+          "question": "What character typically starts a JSON object?",
+          "answers": [
+              "{",
+              "[",
+              "<",
+              "("
+          ],
+          "correct": "{",
+          "group": "9"
+      },
+      {
+          "question": "In JSON, how are key-value pairs separated?",
+          "answers": [
+              "By a comma",
+              "By a colon",
+              "By a semicolon",
+              "By an equals sign"
+          ],
+          "correct": "By a colon",
+          "group": "9"
+      },
+      {
+          "question": "Which of the following best describes a 'stateless' API?",
+          "answers": [
+              "It does not store any client context between requests",
+              "It keeps track of user sessions",
+              "It stores user data on the server",
+              "It maintains a history of user requests"
+          ],
+          "correct": "It does not store any client context between requests",
+          "group": "9"
+      },
+      {
+          "question": "What does the DELETE HTTP method do?",
+          "answers": [
+              "It retrieves data from the server",
+              "It creates a new resource on the server",
+              "It updates an existing resource on the server",
+              "It removes a resource from the server"
+          ],
+          "correct": "It removes a resource from the server",
+          "group": "9"
+      },
+      {
+          "question": "What is the purpose of Program.cs in an ASP.NET project?",
+          "answers": [
+              "To handle HTTP requests",
+              "To define the main entry point of the application",
+              "To manage CSS styles",
+              "To store application data"
+          ],
+          "correct": "To define the main entry point of the application",
+          "group": "9"
+      },
+      {
+          "question": "What do the HTTP verb tags on our controller methods specify?",
+          "answers": [
+              "The type of HTTP request the method handles",
+              "The return type of the method",
+              "The database schema",
+              "The user's authentication status"
+          ],
+          "correct": "The type of HTTP request the method handles",
+          "group": "9"
+      },
+      {
+          "question": "What is the role of SwaggerUI in our ASP.NET application?",
+          "answers": [
+              "To manage database migrations",
+              "To handle authentication",
+              "To provide a user interface for testing the API",
+              "To log application errors"
+          ],
+          "correct": "To provide a user interface for testing the API",
+          "group": "9"
+      },
+      {
+          "question": "What does Entity Framework Core (EF Core) primarily handle in our application?",
+          "answers": [
+              "User authentication",
+              "Database access",
+              "Session management",
+              "Frontend rendering"
+          ],
+          "correct": "Database access",
+          "group": "9"
+      },
+      {
+          "question": "What are the 'dotnet ef' CLI commands used for?",
+          "answers": [
+              "Managing user authentication",
+              "Running unit tests",
+              "Performing database migrations and updates",
+              "Generating frontend code"
+          ],
+          "correct": "Performing database migrations and updates",
+          "group": "9"
+      },
+      {
+          "question": "Which file contains configuration settings for launching the ASP.NET application?",
+          "answers": [
+              "Program.cs",
+              "appsettings.json",
+              "launchSettings.json",
+              "Startup.cs"
+          ],
+          "correct": "launchSettings.json",
+          "group": "9"
+      }
+  
   ]
 }
